@@ -34,13 +34,40 @@ function Projects() {
                         </div>
                 </article>
 
-                <article>
+                <article className='projects__article'>
+                     <img className='projects__article__img' src={loveSearch} alt="HarryPotter" />
+                        <h4 className='projects__article__title'>LoveSearch </h4>
+                        <p className='projects__article__p'>This is a project made with a lot of LOVE. Sometimes is difficult to find the right person, someone that match with you. It is posible filter by gender. Built with Html, Sass, JavaScript, React and APIs.</p>
+                        <div className='projects__article__links'>
+                             <a href="https://github.com/patriciabog/LoveSearch" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
+                            
+                             <a href="https://patriciabog.github.io/LoveSearch/" target='blank' className='projects__article__links__icon'><i class="fa-solid fa-images"></i> Demo</a>
+                           
+                        </div>
                 </article>
 
-                <article>
+                <article className='projects__article'>
+                     <img className='projects__article__img' src={loveSearch} alt="HarryPotter" />
+                        <h4 className='projects__article__title'>LoveSearch </h4>
+                        <p className='projects__article__p'>This is a project made with a lot of LOVE. Sometimes is difficult to find the right person, someone that match with you. It is posible filter by gender. Built with Html, Sass, JavaScript, React and APIs.</p>
+                        <div className='projects__article__links'>
+                             <a href="https://github.com/patriciabog/LoveSearch" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
+                            
+                             <a href="https://patriciabog.github.io/LoveSearch/" target='blank' className='projects__article__links__icon'><i class="fa-solid fa-images"></i> Demo</a>
+                           
+                        </div>
                 </article>
 
-                <article>
+                <article className='projects__article'>
+                     <img className='projects__article__img' src={loveSearch} alt="HarryPotter" />
+                        <h4 className='projects__article__title'>LoveSearch </h4>
+                        <p className='projects__article__p'>This is a project made with a lot of LOVE. Sometimes is difficult to find the right person, someone that match with you. It is posible filter by gender. Built with Html, Sass, JavaScript, React and APIs.</p>
+                        <div className='projects__article__links'>
+                             <a href="https://github.com/patriciabog/LoveSearch" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
+                            
+                             <a href="https://patriciabog.github.io/LoveSearch/" target='blank' className='projects__article__links__icon'><i class="fa-solid fa-images"></i> Demo</a>
+                           
+                        </div>
                 </article>
 
                 <article>

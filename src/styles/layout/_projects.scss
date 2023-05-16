@@ -11,7 +11,6 @@
      margin: 10px;
      font-size: 1.8rem;
      
-
     }
     &__subtitle {
         color: white;
@@ -20,6 +19,38 @@
     }
  
 }
+ @media all and (min-width: 768px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+         &__title {
+            font-size: 2rem;
+     
+         }
+         &__subtitle {
+            margin-bottom: 20px;
+         }
+    
+    }
+ }
+
+ @media all and (min-width: 1200px) {
+    .box {
+        margin-left: 60px;
+    
+            &__title {
+                font-size: 3rem;
+    
+            }
+    
+            &__subtitle {
+                margin-bottom: 50px;
+                font-size: 2rem;
+            }
+    
+        }
+ }
 
  .projects {
     display: flex;
@@ -74,3 +105,18 @@
      }
  }
 
+  @media all and (min-width: 768px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 50px;
+    }
+  }
+
+   @media all and (min-width: 1200px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px 50px;
+    }
+   }

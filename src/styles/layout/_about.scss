@@ -5,9 +5,10 @@
     &__title {
         font-size: 1.2rem;
         color: white;
-        margin-left: 80px;
+        margin-left: 100px;
         margin-top: 90px;
         margin-bottom: -30px;
+        
     }
        
 }
@@ -29,12 +30,18 @@
 .box {
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
     &__parraf {
         font-size: 1rem;
         color: white;
     }
     &__img {
-        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
         margin-top: 30px;
         width: 12rem;
         height: 12rem;
@@ -89,7 +96,7 @@ flex-direction: column;
 
     }
   }
-
+  
 .find {
     margin-top: 50px;
     font-size: 1.2rem;
