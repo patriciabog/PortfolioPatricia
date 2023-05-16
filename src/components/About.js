@@ -1,17 +1,41 @@
 import React from 'react';
 import photo from '../images/foto-Patri-small.jpg';
+import '../styles/App.scss';
 
 function About() {
     return (
-    <div>
-        <h3> Hi Everyone! </h3>
-        <p>
-           I'm Patricia montes de oca, Junior Full Stack developer with experience in Spain, The Netherlands and Ireland, I can bring a unique perspective and diverse skills.<br/>
-            My background working in different countries and cultures has given me an adaptable and flexible mindset, which is a valuable asset in today's globalized work environment.<br/>
-            My experience as a Customer Success also give me an edge as a developer, as I can have a deep understanding of how to communicate effectively with clients and stakeholders, and how to prioritize their needs and concerns. This can be particularly valuable when working on projects that involve direct communication with clients or end-users.<br/>
-            Currently, I am ready to take on new challenges, learn new technologies, and improve my skills and knowledge.
+    <div className='about'>
+        <h3 className='about__title'> Hi Everyone! </h3>
+        <div className='box'>
+        <p className='box__parraf'>
+            <p className='parraf'>I'm <span className='name'>Patricia Montes de oca</span> Junior Full Stack developer.</p>
+           <h4 className='subtitle'>Let me introduce myself</h4>
+           <p className='parraf'>I am passionate of programing and I have at least learned something, I think...🤷🏻‍♀️</p>
+           <p className='parraf'> I am fluent in <span className='name'> HTML5, JavaScript, SASS, React, MySQL.</span></p>
+          
+           <p className='parraf'>Always I try to learn new things, try new technologies and improve my skills and knowledge. </p>
+          
         </p>
-        <img src={photo} alt="" />
+        <img src={photo} alt="" className='box__img'/>
+      </div>
+      <h3 className='find'>Find me on</h3>
+      <div>
+        <ul className='find__list'>
+            <li className='find__list__icon'>
+                <a href="https://github.com/patriciabog" target='blank'> <i class="fa-brands fa-github"></i></a>
+              
+            </li>
+            <li className='find__list__icon'>
+                <a href="https://www.linkedin.com/in/epmontesdeocaverastegui/" target='blank'> <i class="fa-brands fa-linkedin" ></i></a>
+              
+            </li>
+            <li className='find__list__icon'>
+                <a href="https://twitter.com/Patrybog" target='blank'> <i class="fa-brands fa-twitter"></i></a>
+              
+            </li>
+        </ul>
+      </div>
+      
     </div>
 )
 

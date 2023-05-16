@@ -4,10 +4,11 @@ import NavBar from './NavBar';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
+
 import '../styles/App.scss';
 
 // - Imágenes
-import code from '../images/code.png'
+//import code from '../images/code.png'
 /* SECCIÓN DEL COMPONENTE */
 function App() {
   /* VARIABLES ESTADO (DATOS) */
@@ -22,25 +23,28 @@ function App() {
   return (
     <div>
       <header className='header'>
-        <h3>Portfolio <img src={code} alt="" /></h3>
-        <div>
-           <ul>
-            <li>
+        <h3 className="header__title">Portfolio <i class="fa-solid fa-laptop-code"></i></h3>
+
+        <ul className="list">
+          <li className="list__menu">
               <Link to='/'>About me</Link>
-            </li>
-            <li>
+          </li>
+          <li className="list__menu">
               <Link to='/projects'>Projects</Link>
-            </li>
-            <li>
+          </li>
+          <li className="list__menu">
               <Link to='/contact'>Contact</Link>
-            </li>
-          </ul>
-        </div>
+          </li>
+        </ul>
+        
           <NavBar/>
+        
       </header>
+     
  
-     <main className='container'>
-     <Routes>
+     <main className='container'>  
+          
+      <Routes>
       <Route path='/'
       element={
          <About/>
@@ -59,7 +63,9 @@ function App() {
      </Routes>
     
      </main>
-   
+     <footer className="footer">
+           <span className='footer__copyright'>ⒸPatricia Montes de oca</span>
+     </footer>
     </div>
   )
 }

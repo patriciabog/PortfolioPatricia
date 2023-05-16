@@ -1,4 +1,8 @@
-/* Aquí van tus estilos */
+@import 'core/reset';
+@import 'core/variables';
+@import 'layout/nav';
+@import 'layout/about';
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,8 +11,95 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #302c42;
 }
 
 .header {
-    background-color: aquamarine;
+background-color: #14131c;
+height: 5rem;
+position: fixed;
+padding: 10px;
+width: 100%;
+opacity: 0.9;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+     &__title {
+        font-size: 1.2rem;
+        font-family: monospace;
+        text-transform: uppercase;
+        color: #AE00FB;
+        &__logo {
+                width: 20px;
+                color: #AE00FB;
+        
+            }
+     }
+   
+    
 }
+ .list {
+    display: flex;
+    justify-content: space-around;
+    display: none;
+
+   &__menu {
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin: 20px;
+    cursor: pointer;
+   
+   }
+ }
+
+ @media all and (min-width: 768px) {
+    .header {
+            position: sticky;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+    
+            &__title {
+                font-size: 1.5rem;
+                font-family: monospace;
+               
+            }
+    
+            &__logo {
+                width: 30px;
+    
+            }
+    
+        }
+    .list {
+            display: flex;
+            justify-content: space-around;
+    
+            &__menu {
+                margin: 20px;
+            }
+        }
+ }
+
+ .container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+
+ }
+
+.footer {
+    display: flex;
+    margin-top: 100px;
+    padding: 10px;
+    height: 10%;
+    color: white;
+    opacity: 0.5;
+}
+
+
+ 
+
