@@ -18,11 +18,12 @@ function About() {
         </p>
         <img src={photo} alt="" className='box__img'/>
       </div>
-      <h3 className='find'>Find me on</h3>
+       <h3 className='find'>Find me on</h3>
+      <p className='find__subtitle'>Feel free to connect with me</p>
       <div>
         <ul className='find__list'>
             <li className='find__list__icon'>
-                <a href="https://github.com/patriciabog" target='blank'> <i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/patriciabog" target='blank'> <i className="fa-brands fa-github"></i></a>
               
             </li>
             <li className='find__list__icon'>

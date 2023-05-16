@@ -1,11 +1,13 @@
 .about {
     font-family: 'Courier New', Courier, monospace;
+   
+   
     &__title {
         font-size: 1.2rem;
-        padding-bottom: 20px;
         color: white;
         margin-left: 80px;
         margin-top: 90px;
+        margin-bottom: -30px;
     }
        
 }
@@ -16,38 +18,97 @@
 }
 .subtitle {
     font-size: 1.2rem;
-    margin: 30px;
-
+    margin-bottom: 25px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-transform: uppercase;
 }
 .parraf {
-    margin-top: 10px;
+   margin-top: 10px;
 }
 .box {
 display: flex;
 flex-direction: column;
-&__parraf {
-    font-size: 1rem;
-    color: white;
-}
-&__img {
-   margin-left: 80px;
-   margin-top: 30px;
-    width: 10rem;
-    height: 10rem;
-    border-radius: 100px;
-    opacity: 0.7;
-    
-}
+    &__parraf {
+        font-size: 1rem;
+        color: white;
+    }
+    &__img {
+        margin-left: 40px;
+        margin-top: 30px;
+        width: 12rem;
+        height: 12rem;
+        border-radius: 100px;
+        opacity: 0.6;
+        border: solid 5px #b623f5; 
+    }
+
 
 }
+
+ @media all and (min-width: 768px) {
+     .about {
+        padding: 10px;
+         &__title {
+             font-size: 2rem;
+         }
+     }
+
+     .box {
+         display: flex;
+         flex-direction: row;
+        &__img {
+                width: 13rem;
+                height: 13rem;
+                opacity: 0.6;
+                margin-top: 80px;
+            }
+        &__parraf {
+            font-size: 1.5rem;
+            
+       }
+       
+     }
+     .subtitle {
+        font-size: 2rem;
+        padding: 10px;
+        margin-top: 60px;
+        
+         }
+     .parraf {
+         margin-top: 20px;
+     }
+ }
+  @media all and (min-width: 1200px) {
+    .box {
+        &__img {
+            width: 15rem;
+            height: 15rem;
+            //opacity: 0.5;
+        }
+
+    }
+  }
 
 .find {
+    margin-top: 50px;
+    font-size: 1.2rem;
     color: white;
     text-transform: uppercase;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
+   &__subtitle {
+        color: white;
+        font-size: 0.8rem;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+   }
+
     &__list {
         display: flex;
         flex-direction: row;
@@ -65,8 +126,43 @@ flex-direction: column;
             padding: 5px;
             margin: 10px;
             cursor: pointer;
-           
+            border: solid 1px #b623f5;
         }
     }
    
 }
+ @media all and (min-width: 768px) {
+    .find {
+        font-size: 2rem;
+        margin-top: 80px;
+        &__subtitle {
+            //margin-left: 12rem;
+            font-size: 1.2rem;
+        }
+       
+    }
+    .list {
+        &__icon {
+         padding: 10px;
+        border: solid 2px #b623f5;
+    
+        }
+    }
+ }
+  @media all and (min-width: 1200px) {
+    .find {
+            &__subtitle {
+               // margin-left: 32rem;
+              font-size: 1rem;
+            }
+            &__list {
+                &__icon {
+                    width: 40px;
+                    height: 40px;
+                   
+                }
+            }
+        }
+               
+  }
+ 

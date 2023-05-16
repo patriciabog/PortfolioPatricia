@@ -1,0 +1,76 @@
+.box {
+    padding: 10px;
+    margin-top: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+     color: white;
+     margin: 10px;
+     font-size: 1.8rem;
+     
+
+    }
+    &__subtitle {
+        color: white;
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+ 
+}
+
+ .projects {
+    display: flex;
+    flex-direction: column;
+    
+     &__article {
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+       // opacity: 0.8;
+        border: 2px solid #AE00FB;
+        padding: 10px;
+        width: 20rem;
+        height: 25rem;
+        margin-bottom: 20px;
+
+         &__img {
+            width: 10rem;
+            height: 7rem;
+            margin: 10px;
+         }
+
+        &__title {
+            color: white;
+            margin: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        &__p {
+         color: white;
+         font-family: 'Courier New', Courier, monospace;
+         padding: 10px;
+        }
+
+        &__links {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            &__icon {
+                margin-right: 15px;
+                color: white;
+                border: 2px solid #AE00FB;
+                background-color: #AE00FB;
+                padding: 5px;
+            }
+        }
+
+       
+     }
+ }
+
