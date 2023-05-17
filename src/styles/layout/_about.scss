@@ -1,11 +1,12 @@
 .about {
     font-family: 'Courier New', Courier, monospace;
-   
+    display: flex;
+   flex-direction: column;
    
     &__title {
         font-size: 1.2rem;
         color: white;
-        margin-left: 100px;
+        margin-left: 5rem;
         margin-top: 90px;
         margin-bottom: -30px;
         
@@ -41,7 +42,7 @@ align-items: center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: 30px;
         width: 12rem;
         height: 12rem;
@@ -64,11 +65,13 @@ align-items: center;
      .box {
          display: flex;
          flex-direction: row;
+         display: flex;     
         &__img {
                 width: 13rem;
                 height: 13rem;
                 opacity: 0.6;
                 margin-top: 80px;
+                margin-right: 5rem;
             }
         &__parraf {
             font-size: 1.5rem;

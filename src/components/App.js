@@ -7,24 +7,13 @@ import Projects from './Projects';
 
 import '../styles/App.scss';
 
-// - Imágenes
-//import code from '../images/code.png'
-/* SECCIÓN DEL COMPONENTE */
+
 function App() {
-  /* VARIABLES ESTADO (DATOS) */
- 
-  /* EFECTOS (código cuando carga la página) */
-
-  /* FUNCIONES HANDLER */
-
-  /* FUNCIONES Y VARIABLES AUXILIARES PARA PINTAR EL HTML */
-
-  /* HTML */
   return (
     <div>
       <header className='header'>
-        <h3 className="header__title">Portfolio <i class="fa-solid fa-laptop-code"></i></h3>
-
+        <a className="header__title" href="/">Portfolio <i class="fa-solid fa-laptop-code"></i>
+        </a>
         <ul className="list">
           <li className="list__menu">
               <Link to='/'>About me</Link>
