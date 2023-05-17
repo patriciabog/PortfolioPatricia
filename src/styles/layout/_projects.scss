@@ -131,11 +131,10 @@
     .projects {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem 5rem;
+        gap: 1rem 4rem;
         
         &__article {
-            margin-left: 1.5rem;
-            width: 19rem;
+            width: 20rem;
             height: 28rem;
             &__img {
                 width: 15rem;
