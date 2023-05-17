@@ -14,14 +14,14 @@ function App() {
       <header className='header'>
         <a className="header__title" href="/">Portfolio <i class="fa-solid fa-laptop-code"></i>
         </a>
-        <ul className="list">
-          <li className="list__menu">
+        <ul className="header__list">
+          <li className="header__list__menu">
               <Link to='/'>About me</Link>
           </li>
-          <li className="list__menu">
+          <li className="header__list__menu">
               <Link to='/projects'>Projects</Link>
           </li>
-          <li className="list__menu">
+          <li className="header__list__menu">
               <Link to='/contact'>Contact</Link>
           </li>
         </ul>

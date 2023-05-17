@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
     &__list {
         display: flex;
         flex-direction: row;
@@ -10,7 +11,7 @@
      &__icon {
       margin: 10px;
       cursor: pointer;
-      color: #b623f5;
+      color: #AE00FB;
     }
 
 }

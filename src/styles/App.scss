@@ -14,7 +14,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #302c42;
-   
 }
 
 .header {
@@ -37,26 +36,30 @@ align-items: center;
         color: #AE00FB;
         &__logo {
                 width: 20px;
-                color: #AE00FB;
-        
+               
             }
+     }
+
+     &__list {
+         display: flex;
+         justify-content: space-around;
+         display: none;
+         color: #AE00FB;
+    
+         &__menu {
+                 font-family: monospace;
+                 font-size: 1.2rem;
+                 margin: 20px;
+                 cursor: pointer;
+                 
+              
+    
+         }
      }
    
     
 }
- .list {
-    display: flex;
-    justify-content: space-around;
-    display: none;
-
-   &__menu {
-    font-family: monospace;
-    font-size: 1.2rem;
-    margin: 20px;
-    cursor: pointer;
-   
-   }
- }
+ 
 
  @media all and (min-width: 768px) {
     .header {
@@ -81,21 +84,23 @@ align-items: center;
                 width: 30px;
               
             }
+
+                          &__list {
+                              display: flex;
+                              justify-content: space-around;
+            
+                              &__menu {
+                                  margin: 20px;
+                                  font-size: 1.5rem;
+                                  text-transform: uppercase;
+                                  font-weight: bold;
+            
+                              }
+                          }
+                          }
     
         }
-    .list {
-            display: flex;
-            justify-content: space-around;
-    
-            &__menu {
-                margin: 20px;
-                font-size: 1.5rem;
-                text-transform: uppercase;
-                font-weight: bold;
-               
-            }
-        }
- }
+  
  @media all and (min-width: 1200px) {
     .header {
         position: fixed;
