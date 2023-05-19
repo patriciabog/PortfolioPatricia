@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <header className='header'>
-        <a className="header__title" href="/">Portfolio <i class="fa-solid fa-laptop-code"></i>
+        <a className="header__title" href="/about">Portfolio <i class="fa-solid fa-laptop-code"></i>
         </a>
         <ul className="header__list">
           <li className="header__list__menu">
