@@ -10,10 +10,16 @@
     }
      &__icon {
       margin: 10px;
+      padding: 7.2px;
+      border-radius: 50%;
       cursor: pointer;
-      color: black;
+      background-color: white;
+      transition: transform .2s;
     }
 
+}
+.nav__icon:hover {
+    transform: scale(1.5);
 }
 
 @media all and (min-width: 768px) {

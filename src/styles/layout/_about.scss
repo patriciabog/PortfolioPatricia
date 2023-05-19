@@ -16,7 +16,7 @@
 .name {
     color: #b623f5;
     text-transform: uppercase;
-
+    
 }
 .subtitle {
     font-size: 1.2rem;
@@ -26,9 +26,9 @@
     text-transform: uppercase;
 }
 .parraf {
-   margin-top: 10px;
-   
+   margin-top:20px;
 }
+
 .box {
 display: flex;
 flex-direction: column;
@@ -61,6 +61,9 @@ align-items: center;
              font-size: 1.8rem;
          }
      }
+          .parraf {
+              padding: 10px;
+          }
 
      .box {
          display: flex;
@@ -149,9 +152,12 @@ align-items: center;
             margin: 10px;
             cursor: pointer;
             border: solid 1px #b623f5;
+            transition: transform .2s;
         }
     }
-   
+}
+.find__list__icon:hover {
+    transform: scale(1.5);
 }
  @media all and (min-width: 768px) {
     .find {

@@ -40,7 +40,7 @@ function Projects() {
                 <article className='projects__article'>
                      <img className='projects__article__img' src={awsomeCards} alt="HarryPotter" />
                         <h4 className='projects__article__title'>Awsome Cards </h4>
-                        <p className='projects__article__p'>This is a tem project one of my first in a tem. In this project we created and interactive web application that you can create a personalized bussines card. Built with HTML, CSS, SCSS JavaScript, Local Storage.</p>
+                        <p className='projects__article__p'>This is a team project one of my first in a tem. In this project we created and interactive web application that you can create a personalized bussines card. Built with HTML, CSS, SCSS JavaScript, Local Storage.</p>
                         <div className='projects__article__links'>
                              <a href="https://github.com/patriciabog/AwsomeCards" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
                             
@@ -62,13 +62,14 @@ function Projects() {
                 </article>
 
                 <article className='projects__article'>
-                     <img className='projects__article__img' src={backProject} alt="HarryPotter" />
+                     <img className='projects__article__img' src={backProject} alt="Back project" />
                         <h4 className='projects__article__title'>Projectos Molones </h4>
-                        <p className='projects__article__p'>This is a project made with a lot of LOVE. Sometimes is difficult to find the right person, someone that match with you. It is posible filter by gender. Built with Html, Sass, JavaScript, React and APIs.</p>
+                        <p className='projects__article__p'>This is a team project web app, which will allow you to create fully customized project cards and publish your projects.
+                        Built with Html, Sass, JavaScript, React and API, Zeplin, Git/GitHub, Gulp, MySQL Workbench, Node.js, Express.js. </p>
                         <div className='projects__article__links'>
-                             <a href="https://github.com/patriciabog/LoveSearch" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
+                             <a href="https://github.com/patriciabog" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
                             
-                             <a href="https://patriciabog.github.io/LoveSearch/" target='blank' className='projects__article__links__icon'><i class="fa-solid fa-images"></i> Demo</a>
+                             <a href="https://proyectos-molones.onrender.com/" target='blank' className='projects__article__links__icon'><i class="fa-solid fa-images"></i> Demo</a>
                            
                         </div>
                 </article>

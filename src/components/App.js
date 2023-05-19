@@ -1,6 +1,6 @@
 /* SECCIÓN DE IMPORT */
 import { Routes, Route, Link } from "react-router-dom";
-import NavBar from './NavBar';
+import Navbar from './Navbar';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
@@ -26,7 +26,7 @@ function App() {
           </li>
         </ul>
         
-          <NavBar/>
+          <Navbar/>
         
       </header>
      

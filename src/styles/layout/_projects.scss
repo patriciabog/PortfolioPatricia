@@ -72,6 +72,8 @@
         width: 18rem;
         height: 25rem;
         margin-bottom: 20px;
+        opacity: 0.6;
+            transition: 0.3s;
 
          &__img {
             width: 10rem;
@@ -80,7 +82,7 @@
          }
 
         &__title {
-            color:#EAD3CB;
+            color:white;
             margin: 10px;
             font-family: 'Courier New', Courier, monospace;
             font-size: 1.2rem;
@@ -88,10 +90,10 @@
         }
 
         &__p {
-         color: #EAD3CB;
+         color: white;
          font-family: 'Courier New', Courier, monospace;
          padding: 10px;
-        font-size: 0.9rem;
+         font-size: 0.9rem;
         }
 
         &__links {
@@ -110,22 +112,32 @@
        
      }
  }
+ .projects__article:hover {
+     opacity: 1
+ }
 
   @media all and (min-width: 768px) {
     .projects {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem 4rem;
-        padding: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem 1rem;
+        //padding: 3px;
      
         //margin-left: 4rem;
         &__article {
-            width: 19rem;
+            width: 15rem;
             height: 28rem;
             &__img {
-                width: 15rem;
-                height: 10rem;
+                width: 13rem;
+                height: 8rem;
              }
+            &__links {
+                padding: 0px;
+            }
+            &__p {
+                font-size: 0.8rem;
+                padding: 5px;
+            }
 
         }
     }
@@ -144,6 +156,7 @@
             &__img {
                 width: 15rem;
                 height: 10rem;
+               
             }
         }
     }
