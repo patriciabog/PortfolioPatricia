@@ -6,21 +6,21 @@
     justify-content: center;
     align-items: center;
     &__title {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
         text-transform: uppercase;
         padding: 10px;
-        margin-left: 10px;
+        margin-left: 3rem;
     }
     &__links {
        margin: 10px;
        display: flex;
        flex-direction: column;
-       margin-left: 2rem;
+       margin-left: 3rem;
       &__icon {
         margin: 10px;
         color: white;
-        background-color:#AE00FB;
+        background-color:#9501d4;
         padding: 10px;
         cursor: pointer;
        
@@ -31,8 +31,9 @@
 
 @media all and (min-width: 768px) {
     .contact {
+       
         &__title {
-            font-size: 3rem;
+            font-size: 2.3rem;
             margin: 30px;
             margin-left: 6rem;
             margin-top: 50px;
@@ -43,9 +44,9 @@
             margin-left: 3.5rem;
 
             &__icon {
-                padding: 20px;
-                font-size: 2rem;
-                margin: 10px;
+                padding: 10px;
+                font-size: 1.5rem;
+                margin: 2rem;
             }
         }
     }
@@ -54,7 +55,7 @@
 @media all and (min-width: 1200px) {
         .contact {
                 &__title {
-                    font-size: 3.5rem;
+                    font-size: 2.5rem;
                     margin-left: 10rem;
                 }
         
@@ -64,9 +65,10 @@
                     margin-left: 10rem;
         
                     &__icon {
-                        padding: 20px;
-                        font-size: 2.5rem;
-                        margin: 25px;
+                        padding: 18px;
+                        font-size: 1.5rem;
+                        margin: 5rem;
+                        
                     }
                 }
             }
@@ -83,7 +85,7 @@
    
    &__title {
     padding: 10px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin: 20px;
@@ -94,27 +96,27 @@
         padding: 10px;
         margin-top: 5px;
         &__label {
-            font-size: 1.2rem;
+            font-size: 1rem;
             display: flex;
             justify-content: flex-start;
             margin-bottom: 10px;
         }
         &__input {
            background-color: #302c42;
-           border: 2px solid #AE00FB;
+           border: 2px solid #9501d4;
            padding: 5px;
            color: white;
         }
         &__text {
            background-color: #302c42;
-           border: 1px solid #AE00FB;
+           border: 1px solid #9501d4;
            padding: 20px;
            color: white;
            margin-top: 10px;
        } 
    }
    &__btn {
-       background-color: #AE00FB;
+       background-color: #9501d4;
        padding: 10px;
        cursor: pointer;
        color: white;
@@ -126,20 +128,24 @@
 }
  @media all and (min-width: 768px) {
     .form {
-       margin-left: 2rem;
+       margin-left: 5rem;
         &__title {
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin: 30px;
             margin-top: 70px;
-            margin-left: 2rem;
+            margin-left: 6rem;
         }
         &__group {
             width: 30rem;
-            padding: 30px;
+            padding: 25px;
             opacity: 0.8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           
            
             &__label {
-               font-size: 1.5rem;
+               font-size: 1.3rem;
                margin: 5px;
             }
             &__input {
@@ -157,8 +163,8 @@
         }
 
         &__btn {
-            font-size: 1.5rem;
-            padding: 15px;
+            font-size: 1.2rem;
+            padding: 12px;
         }
         
     }
@@ -168,13 +174,13 @@
         margin-left: 5rem;
 
         &__title {
-            font-size: 2.5rem;
-            margin-left: 3rem;
+            font-size: 2rem;
+            margin-left: 7rem;
         }
 
         &__group {
             width: 30rem;
-            padding: 30px;
+            margin: 1rem;
 
         }
     }

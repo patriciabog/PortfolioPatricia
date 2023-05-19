@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../images/foto-Patri-small.jpg';
+import photo from '../images/photo.png';
 import '../styles/App.scss';
 
 function About() {

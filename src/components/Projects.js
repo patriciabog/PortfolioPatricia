@@ -1,8 +1,9 @@
 import React from 'react';
 import harryPotter from '../images/HarryPotter.png'
 import loveSearch from '../images/LoveSearch.png'
-import awsomeCards from '../images/awsomeCard.png'
+import awsomeCards from '../images/awsomeCards.png'
 import guessNumber from '../images/guessNumber.png'
+import backProject from '../images/BackProject.png'
 
 function Projects() {
     return (
@@ -61,8 +62,8 @@ function Projects() {
                 </article>
 
                 <article className='projects__article'>
-                     <img className='projects__article__img' src={loveSearch} alt="HarryPotter" />
-                        <h4 className='projects__article__title'>LoveSearch </h4>
+                     <img className='projects__article__img' src={backProject} alt="HarryPotter" />
+                        <h4 className='projects__article__title'>Projectos Molones </h4>
                         <p className='projects__article__p'>This is a project made with a lot of LOVE. Sometimes is difficult to find the right person, someone that match with you. It is posible filter by gender. Built with Html, Sass, JavaScript, React and APIs.</p>
                         <div className='projects__article__links'>
                              <a href="https://github.com/patriciabog/LoveSearch" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
