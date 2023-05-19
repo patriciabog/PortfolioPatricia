@@ -30,7 +30,6 @@ align-items: center;
             &__name {
                 color: #b623f5;
                 text-transform: uppercase;
-
            }
         }
         &__subtitle {
@@ -97,13 +96,18 @@ align-items: center;
         }
     .intro {
         &__parraf {
+            margin-top: 30px;
                 font-size: 1.1rem;
-                padding: 50px;
+                padding: 6rem;
+                &__p {
+                    margin-top: 20px;
+                    }
+                
         
             }
         &__img {
-            width: 20rem;
-            height: 18rem;
+            width: 25rem;
+            height: 20rem;
            margin-right: 50px;
         }
 
