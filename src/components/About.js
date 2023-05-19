@@ -1,21 +1,21 @@
 import React from 'react';
 import photo from '../images/photo.png';
-import '../styles/App.scss';
+
 
 function About() {
     return (
     <div className='about'>
         <h3 className='about__title'> Hi Everyone! </h3>
-        <div className='box'>
-           <p className='box__parraf'>
-               <p className='parraf'>I'm <span className='name'>Patricia Montes de oca</span> Junior Full Stack developer.</p>
-               <h4 className='subtitle'>Let me introduce myself</h4>
-               <p className='parraf'>I'm a junior full stack developer, currently I'm looking for work in some great company where I can continue learning and improve my skills and knowledge. I have experience working within a scrum and agile metodologies.</p>
-               <p className='parraf'> I have knowledge in <span className='name'> HTML5, JavaScript, SASS, React, MySQL </span>and Basic knowledge of APIs and back end programming in applications with Node JS, Express and SQL.</p>
-               <p className='parraf'>I love traveling and test the local food, also I like going out on my bike. Take a look at my GitHub for all my projects and contact me! </p>
+        <div className='intro'>
+           <p className='intro__parraf'>
+               <p className='intro__parraf__p'>I'm <span className='intro__parraf__p__name'>Patricia Montes de oca</span> Junior Full Stack developer.</p>
+               <h4 className='intro__parraf__subtitle'>Let me introduce myself</h4>
+               <p className='intro__parraf__p'>I'm a junior full stack developer, currently I'm looking for work in some great company where I can continue learning and improve my skills and knowledge. I have experience working within a scrum and agile metodologies.</p>
+               <p className='intro__parraf__p'> I have knowledge in <span className='intro__parraf__p__name'> HTML5, JavaScript, SASS, React, MySQL </span>and Basic knowledge of APIs and back end programming in applications with Node JS, Express and SQL.</p>
+               <p className='intro__parraf__p'>I love traveling and test the local food, also I like going out on my bike. Take a look at my GitHub for all my projects and contact me! </p>
           
             </p>
-            <img src={photo} alt="" className='box__img'/>
+            <img src={photo} alt="" className='intro__img'/>
         </div>
             <h3 className='find'>Find me on</h3>
             <p className='find__subtitle'>Feel free to connect with me!</p>
