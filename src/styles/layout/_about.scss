@@ -1,11 +1,11 @@
 .about {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:$font-familyMono;
     display: flex;
     flex-direction: column;
    
     &__title {
         font-size: 1.2rem;
-        color: white;
+        color: #472183;
         margin-left: 5rem;
         margin-top: 90px;
         margin-bottom: -60px;
@@ -21,7 +21,7 @@ justify-content: center;
 align-items: center;
     &__parraf {
         font-size: 0.8rem;
-        color: white;
+        color: #472183;
         padding: 10px;
         margin-top: 5rem;
         &__p {
@@ -47,7 +47,7 @@ align-items: center;
         width: 15rem;
         height: 12rem;
         border-radius: 2%;
-        border: solid 1px #581575; 
+        border: solid 1px #9501d4; 
     }
 }
 
@@ -73,7 +73,7 @@ align-items: center;
                     margin-top: 30px;
             }
             &__p {
-                    margin-top: 5px;
+                    margin-top: 20px;
                 }
         }
           
@@ -117,14 +117,16 @@ align-items: center;
 .find {
     margin-top: 50px;
     font-size: 1.2rem;
-    color: white;
+    color: #472183;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+   
    &__subtitle {
-        color: white;
+        color: #472183;
         font-size: 0.8rem;
         margin-top: 10px;
         display: flex;

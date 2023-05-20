@@ -1,6 +1,6 @@
 .contact {
     margin-top: 90px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: $font-familyMono;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     
     &__title {
         font-size: 1.5rem;
-        color: white;
+        color: #472183;
         text-transform: uppercase;
         padding: 10px;
         margin-left: 3rem;
@@ -82,7 +82,7 @@
   }
 
 .form {
-   color: white;
+   color: #472183;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -93,8 +93,8 @@
    &__title {
     padding: 10px;
     font-size: 1.2rem;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+    color: #472183;
+    font-family: $font-familyMono;
     margin: 20px;
     margin-top: 40px;
     margin-left: 2rem;
@@ -109,17 +109,19 @@
             margin-bottom: 10px;
         }
         &__input {
-           background-color: #302c42;
-           border: 2px solid #9501d4;
+           background-color: #efe9f7;
+           border: 1px solid #a659c7;
            padding: 5px;
-           color: white;
+           color: #472183;
         }
         &__text {
-           background-color: #302c42;
-           border: 1px solid #9501d4;
-           padding: 20px;
-           color: white;
+           background-color: #efe9f7;
+           border: 1px solid #a659c7;
+           padding: 10px;
+           color: #472183;
            margin-top: 10px;
+           width: 15rem;
+           height: 6rem;
        } 
    }
    &__btn {
