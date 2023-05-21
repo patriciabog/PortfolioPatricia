@@ -166,7 +166,6 @@ align-items: center;
         font-size: 1.5rem;
         margin-top: 80px;
         &__subtitle {
-            //margin-left: 12rem;
             font-size: 1rem;
         }
          &__list {
@@ -174,7 +173,6 @@ align-items: center;
                  width: 40px;
                  height: 40px;
                  border: solid 2px #b623f5;
-        
              }
          }
        
@@ -184,7 +182,6 @@ align-items: center;
   @media all and (min-width: 1200px) {
     .find {
          &__subtitle {
-           // margin-left: 32rem;
            font-size: 1rem;
          }
          &__list {
