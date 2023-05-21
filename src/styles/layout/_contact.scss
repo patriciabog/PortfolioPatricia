@@ -105,7 +105,7 @@
             font-size: 1rem;
             display: flex;
             justify-content: flex-start;
-            margin-bottom: 1rem;
+            margin-bottom: 0.2rem;
         }
         &__input {
            background-color: #efe9f7;
@@ -137,7 +137,7 @@
 }
  @media all and (min-width: 768px) {
     .form {
-       margin-left: 2rem;
+    
         &__title {
           font-size: 1.5rem;
         //    margin: 30px;
@@ -145,19 +145,19 @@
         }
         &__group {
             width: 30rem;
-            padding: 0.8rem;
+            padding: 1rem;
+            margin-left: 1rem;
             opacity: 0.8;
             display: flex;
             flex-direction: column;
             justify-content: center;
            
-           
             &__label {
                font-size: 1.3rem;
-               margin: 5px;
+               margin: 10px;
             }
             &__input {
-                margin: 8px;
+                margin-left: 8px;
                 width: 25rem;
                 height: 3rem;
                 padding: 10px;
@@ -167,6 +167,7 @@
                 padding: 10px;
                 width: 25rem;
                 height: 8rem;
+                margin-left: 10px;
             }
         }
 
