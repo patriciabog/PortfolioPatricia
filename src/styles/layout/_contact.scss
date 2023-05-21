@@ -1,33 +1,33 @@
 .contact {
+    width: 100%;
     margin-top: 90px;
     font-family: $font-familyMono;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
     
     &__title {
         font-size: 1.5rem;
         color: #472183;
         text-transform: uppercase;
         padding: 10px;
-        margin-left: 3rem;
+       
     }
     &__links {
-       margin: 10px;
+       margin: 1rem;
        display: flex;
        flex-direction: column;
-       margin-left: 3rem;
        opacity: 0.6;
        transition: 0.3s;
        
       &__icon {
-        margin: 10px;
+        margin: 1rem;
         color: white;
         background-color:#9501d4;
-        padding: 10px;
+        padding: 0.8rem;
         cursor: pointer;
-       
        
       }
     
@@ -38,22 +38,22 @@
 
 @media all and (min-width: 768px) {
     .contact {
-       
+
         &__title {
-            font-size: 2.3rem;
-            margin: 30px;
-            margin-left: 6rem;
+            font-size: 2rem;
+            margin: 1rem;
             margin-top: 50px;
+           
         }
         &__links {
             display: flex;
             flex-direction: row;
-            margin-left: 3.5rem;
+            margin: 2rem;
 
             &__icon {
-                padding: 10px;
+                padding: 1rem;
                 font-size: 1.5rem;
-                margin: 2rem;
+                margin: 1rem;
             }
         }
     }
@@ -61,19 +61,18 @@
 
 @media all and (min-width: 1200px) {
         .contact {
+           
                 &__title {
                     font-size: 2.5rem;
-                    margin-left: 10rem;
                 }
         
                 &__links {
                     display: flex;
                     flex-direction: row;
-                    margin-left: 10rem;
         
                     &__icon {
-                        padding: 18px;
-                        font-size: 1.5rem;
+                        padding: 1.3rem;
+                        font-size: 1.4rem;
                         margin: 5rem;
                         
                     }
@@ -88,31 +87,32 @@
    justify-content: center;
    align-items: center;
    border: 2px solid #7301a3;
-   margin-left: 2rem;
+   padding: 1rem;
    
    &__title {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #472183;
     font-family: $font-familyMono;
     margin: 20px;
     margin-top: 40px;
-    margin-left: 2rem;
+   // margin-left: 2rem;
    }
    &__group {
-        padding: 10px;
+        padding: 5px;
         margin-top: 5px;
         &__label {
             font-size: 1rem;
             display: flex;
             justify-content: flex-start;
-            margin-bottom: 10px;
+            margin-bottom: 1rem;
         }
         &__input {
            background-color: #efe9f7;
            border: 1px solid #a659c7;
-           padding: 5px;
+           padding: 0.5rem;
            color: #472183;
+           font-size: 1.2rem;
         }
         &__text {
            background-color: #efe9f7;
@@ -120,7 +120,7 @@
            padding: 10px;
            color: #472183;
            margin-top: 10px;
-           width: 15rem;
+           width: 13rem;
            height: 6rem;
        } 
    }
@@ -137,7 +137,7 @@
 }
  @media all and (min-width: 768px) {
     .form {
-       margin-left: 5rem;
+       margin-left: 2rem;
         &__title {
             font-size: 1.5rem;
             margin: 30px;
@@ -146,7 +146,7 @@
         }
         &__group {
             width: 30rem;
-            padding: 25px;
+            padding: 2rem;
             opacity: 0.8;
             display: flex;
             flex-direction: column;
