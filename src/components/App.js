@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
       <header className='header'>
-        <a className="header__title" href="/about">Portfolio <i class="fa-solid fa-laptop-code"></i>
-        </a>
+        <Link className="header__title" to="/">Portfolio <i class="fa-solid fa-laptop-code"></i>
+        </Link>
         <ul className="header__list">
           <li className="header__list__menu">
               <Link to='/'>About me</Link>
