@@ -26,7 +26,7 @@ function Projects() {
                 </article>
 
                 <article className='projects__article'>
-                     <img className='projects__article__img' src={loveSearch} alt="HarryPotter" />
+                     <img className='projects__article__img' src={loveSearch} alt="LoveSearch" />
                         <h4 className='projects__article__title'>LoveSearch </h4>
                         <p className='projects__article__p'>This is a project made with a lot of LOVE. Sometimes is difficult to find the right person, someone that match with you. It is posible filter by gender. Built with Html, Sass, JavaScript, React and APIs.</p>
                         <div className='projects__article__links'>
@@ -38,7 +38,7 @@ function Projects() {
                 </article>
 
                 <article className='projects__article'>
-                     <img className='projects__article__img' src={awsomeCards} alt="HarryPotter" />
+                     <img className='projects__article__img' src={awsomeCards} alt="awsomeCards" />
                         <h4 className='projects__article__title'>Awsome Cards </h4>
                         <p className='projects__article__p'>This is a team project one of my first in a tem. In this project we created and interactive web application that you can create a personalized bussines card. Built with HTML, CSS, SCSS JavaScript, Local Storage.</p>
                         <div className='projects__article__links'>
@@ -50,7 +50,7 @@ function Projects() {
                 </article>
 
                 <article className='projects__article'>
-                     <img className='projects__article__img' src={guessNumber} alt="HarryPotter" />
+                     <img className='projects__article__img' src={guessNumber} alt="guessNumber" />
                         <h4 className='projects__article__title'>Guess the Number </h4>
                         <p className='projects__article__p'>In this game you have to try to guess the number, below you can see how many times you are trying, if it is not the correct one you can try again. Built with HTML, CSS and JavaScript</p>
                         <div className='projects__article__links'>
