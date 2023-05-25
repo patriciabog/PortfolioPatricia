@@ -1,6 +1,11 @@
 import React from 'react';
 import photo from '../images/photo.png';
-
+import html from '../images/html-5.png';
+import sass from '../images/sass.png';
+import js from '../images/js.png';
+import react from '../images/physics.png';
+import mysql from '../images/mysql.png';
+import git from '../images/git.png';
 
 function About() {
     return (
@@ -17,6 +22,17 @@ function About() {
           
             </p>
             <img src={photo} alt="" className='intro__img'/>
+        </div>
+        <div className='about__skills'>
+            <h3 className='about__skills__title'>Skills</h3>
+            <ul className='about__skills__list'>
+                <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={html} alt="" /></li>
+                <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={sass} alt="" /></li>
+                <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={js} alt="" /></li>
+                <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={react} alt="" /></li>
+                <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={mysql} alt="" /></li>
+                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={git} alt="" /></li>
+            </ul>
         </div>
             <h3 className='find'>Find me on</h3>
             <p className='find__subtitle'>Feel free to connect with me!</p>
