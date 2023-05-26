@@ -40,7 +40,7 @@ function Projects() {
                 <article className='projects__article'>
                      <img className='projects__article__img' src={awsomeCards} alt="awsomeCards" />
                         <h4 className='projects__article__title'>Awsome Cards </h4>
-                        <p className='projects__article__p'> In this project has been created and interactive web application where you can create a personalized business card. Built with HTML, CSS, SCSS JavaScript,Git and Local Storage.</p>
+                        <p className='projects__article__p'> In this project has been created an interactive web application where you can create a personalized business card. Built with HTML, CSS, SCSS JavaScript,Git and Local Storage.</p>
                         <div className='projects__article__links'>
                              <a href="https://github.com/patriciabog/AwsomeCards" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
                             
