@@ -69,15 +69,15 @@
         flex-direction: column;  
         justify-content: center;
         align-items: center;
-        border: 3px solid #5d0383;
+        //border: 3px solid #5d0383;
         font-family: $font-familyMono;
         padding: 0.7rem;
         width: 18rem;
         height: 25rem;
         margin-bottom: 20px;
-        opacity: 0.6;
+        opacity: 0.7;
         transition: 0.3s;
-        background-color: white;
+        background-color: #D1D1D1;
 
          &__img {
             width: 10rem;
@@ -137,6 +137,7 @@
              }
             &__links {
                 padding: 0px;
+                margin-top: 20px;
             }
             &__p {
                 font-size: 0.8rem;
