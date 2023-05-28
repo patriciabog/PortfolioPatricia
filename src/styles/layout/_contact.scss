@@ -135,6 +135,9 @@
        } 
    }
    &__btn {
+       display: flex;
+       justify-content: center;
+       align-items: center;
        background-color: #9501d4;
        border-radius: 2rem;
        width: 7rem;
@@ -145,7 +148,7 @@
        border: none;
        font-size: 1rem;
        margin: 10px;
-       margin-bottom: 15px;
+       margin-bottom: 1rem;
     }
 }
  @media all and (min-width: 768px) {
@@ -186,7 +189,7 @@
 
         &__btn {
             font-size: 1.2rem;
-            padding: 12px;
+            padding: 10px;
         }
         
     }
