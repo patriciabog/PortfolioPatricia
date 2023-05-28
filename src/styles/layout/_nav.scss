@@ -6,17 +6,20 @@
     &__list {
         display: flex;
         flex-direction: row;
-         padding: 20px;
+        padding: 20px;
     }
      &__icon {
       margin: 5px;
-      padding: 7.2px;
+      padding: 0.6rem;
       border-radius: 50%;
       cursor: pointer;
       background-color: white;
       transition: transform .2s;
     }
-
+}
+.icon-nav {
+    color:#AE00FB; 
+    
 }
 .nav__icon:hover {
     transform: scale(1.5);

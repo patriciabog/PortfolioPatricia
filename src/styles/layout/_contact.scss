@@ -86,7 +86,10 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   border: 2px solid #7301a3;
+    border: none;
+    border-radius: 10%;
+   //border: 2px solid #7301a3;
+   background-color:#dbddec;
    padding: 1rem;
    
    &__title {
@@ -101,31 +104,41 @@
    &__group {
         padding: 5px;
         margin-top: 5px;
+       
         &__label {
             font-size: 1rem;
             display: flex;
             justify-content: flex-start;
-            margin-bottom: 0.2rem;
+            margin-bottom: 0.5rem;
         }
         &__input {
-           background-color: #efe9f7;
-           border: 1px solid #a659c7;
+           background-color: white;
+           border: none;
            padding: 0.5rem;
            color: #472183;
-           font-size: 1.2rem;
+           width: 18rem;
+           font-size: 0.8rem;
+           border-radius: 2rem;
+           opacity: 0.8;
         }
         &__text {
-           background-color: #efe9f7;
-           border: 1px solid #a659c7;
-           padding: 10px;
+           background-color: white;
+           border: none;
+           border-radius: 2rem;
+           padding: 1rem;
            color: #472183;
            margin-top: 10px;
-           width: 13rem;
+           font-size: 0.8rem;
+           opacity: 0.8;
+           width: 18rem;
            height: 6rem;
        } 
    }
    &__btn {
        background-color: #9501d4;
+       border-radius: 2rem;
+       width: 7rem;
+       height: 2.5rem;
        padding: 10px;
        cursor: pointer;
        color: white;

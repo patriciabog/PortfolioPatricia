@@ -48,6 +48,7 @@ return (
                  type="text"
                  id="name"
                  name="name"
+                 placeholder='Your name..'
                  value={formData.name}
                  onChange={handleChange}
                  required
@@ -60,6 +61,7 @@ return (
                 type="email"
                 id="email"
                 name="email"
+                placeholder='Your email@example.com'
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -71,6 +73,7 @@ return (
                 className='form__group__text'
                 id="message"
                 name="message"
+                placeholder='Write something..'
                 value={formData.message}
                 onChange={handleChange}
                 required

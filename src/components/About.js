@@ -10,10 +10,9 @@ import git from '../images/git.png';
 function About() {
     return (
     <div className='about'>
-        <h3 className='about__title'> Hi Everyone! </h3>
+        <h3 className='about__title'> Hi Everyone! Let me introduce myself</h3>
         <div className='intro'>
            <p className='intro__parraf'>
-               <h4 className='intro__parraf__subtitle'>Let me introduce myself</h4>
                <p className='intro__parraf__p'>I'm <span  className='intro__parraf__p__name'>Patricia Montes de oca</span> Web Developer and I have knowledge of HTML5, JavaScript, CSS/SASS, React, MySQL and basic knowledge of APIs and backend programming in applications with Node.js, Express.js.</p>
                <p className='intro__parraf__p'>Currently I'm looking for a new challenge where I can continue learning and improve my skills and knowledge. I have experience working within a scrum and agile metodologies.</p>
                
@@ -38,15 +37,15 @@ function About() {
              <div>
                 <ul className='find__list'>
                    <li className='find__list__icon'>
-                        <a href="https://github.com/patriciabog" target='blank'> <i className="fa-brands fa-github"></i></a>
+                        <a className='icon' href="https://github.com/patriciabog" target='blank'> <i className="fa-brands fa-github"></i></a>
               
                      </li>
                     <li className='find__list__icon'>
-                         <a href="https://www.linkedin.com/in/epmontesdeocaverastegui/" target='blank'> <i class="fa-brands fa-linkedin" ></i></a>
+                         <a className='icon' href="https://www.linkedin.com/in/epmontesdeocaverastegui/" target='blank'> <i class="fa-brands fa-linkedin" ></i></a>
               
                    </li>
                    <li className='find__list__icon'>
-                         <a href="https://twitter.com/Patrybog" target='blank'> <i class="fa-brands fa-twitter"></i></a>
+                         <a className='icon' href="https://twitter.com/Patrybog" target='blank'> <i class="fa-brands fa-twitter"></i></a>
               
                    </li>
                 </ul>

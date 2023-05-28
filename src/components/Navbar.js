@@ -11,13 +11,13 @@ return (
   <nav className='nav'>
     <ul className='nav__list'>
         <li className='nav__icon'>
-          <Link to='/'><i class="fa-solid fa-house" ></i></Link>
+          <Link className='icon-nav' to='/'><i class="fa-solid fa-house" ></i></Link>
         </li>
         <li className='nav__icon'>
-           <Link to='/projects'> <i class="fa-solid fa-laptop-file"></i></Link>
+           <Link className='icon-nav' to='/projects'> <i class="fa-solid fa-laptop-file"></i></Link>
         </li>
         <li className='nav__icon'>
-            <Link to='/contact'> <i class="fa-solid fa-envelope"></i></Link>
+            <Link className='icon-nav' to='/contact'> <i class="fa-solid fa-envelope"></i></Link>
         </li>
       </ul>
         

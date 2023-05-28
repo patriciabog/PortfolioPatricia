@@ -1,15 +1,16 @@
 .about {
-    font-family:$font-familyMono;
+    font-family:$font-family1;
     display: flex;
     flex-direction: column;
     width: 100%;
    
     &__title {
-        font-size: 1.2rem;
-        color: #472183;
+        font-size: 1.1rem;
+        color: #656b93;
         margin-left: 1rem;
         margin-top: 90px;
-        margin-bottom: -60px;
+        margin-bottom: -2.5rem;
+      
     }
     &__skills {
         font-family: $font-familyMono;
@@ -47,44 +48,37 @@
 }
 
 
+
 .intro {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-font-family: $font-familyMono;
+font-family: $font-family1;
     &__parraf {
         font-size: 1rem;
-        color: #472183;
-        padding: 10px;
+        color: #656b93;
+        padding: 1rem;
         margin-top: 2rem;
     
         &__p {
-            margin-top: 1rem;
-            font-family: $font-familyMono;
+            margin-top: 1.1rem;
+            line-height: 1.5;
           
             &__name {
                 color: #b623f5;
                 font-weight: bold;
-                text-transform: uppercase;
            }
-        }
-        &__subtitle {
-            font-size: 1.2rem;
-            margin-bottom: 25px;
-            margin-top: 50px;
-            text-transform: uppercase;
-        }
+        } 
         
     }
 
     &__img {
-        margin-top: 30px;
+        margin-top: 3rem;
         width: 15rem;
         height: 12rem;
         border-radius: 2%;
-
-       // border: solid 1px #9501d4; 
+        border-radius: 2rem;
     }
 
         
@@ -97,7 +91,9 @@ font-family: $font-familyMono;
         padding: 10px;
     
          &__title {
-             font-size: 1.8rem;
+             font-size: 1.3rem;
+             margin-left: 1rem;
+            margin-bottom: -2.3em;
          }
          &__skills{
             &__title{
@@ -122,50 +118,44 @@ font-family: $font-familyMono;
        display: flex;
        flex-direction: row;
         &__parraf {
-            font-size: 1rem;
-            padding: 20px;
-            &__subtitle {
-                font-size: 1.5rem;
-                    padding: 20px;
-                    margin-top: 30px;
-            }
+            font-size: 1.2rem;
+            padding: 10px;
+          
             &__p {
-                    margin-top: 20px;
+                margin-top: 20px;
                 }
         }
           
         &__img {
-                width: 18rem;
-                height: 15rem;
-                margin-top: 80px;
-               // margin-right: 5rem;
+             width: 18rem;
+             height: 16rem;
+             margin-top: 80px;
         }
      }
     
  }
   @media all and (min-width: 1200px) {
     .about {
-           
+           margin-top: 2rem;
             &__title {
-                font-size: 1.8rem;
-                margin-left: 10rem;
+                font-size: 1.5rem;
+                margin-left: 3rem;
+                margin-bottom: -5rem;
             }
         }
     .intro {
         &__parraf {
-            margin-top: 30px;
-                font-size: 1.1rem;
-                padding: 6rem;
+                font-size: 1.3rem;
+                padding: 3rem;
+               
                 &__p {
-                    margin-top: 20px;
-                    }
-                
-        
+                   margin-top: 20px;
+                 }
             }
         &__img {
-            width: 25rem;
+            width: 30rem;
             height: 20rem;
-           margin-right: 50px;
+            margin-right: 30px;
         }
 
     }
@@ -200,23 +190,27 @@ font-family: $font-familyMono;
         padding: 20px;
         
         &__icon {
-            background-color: white;
-            color: #AE00FB;
+            background-color:#AE00FB;
+            color: white;
             border-radius: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 5px;
+            padding: 0.7rem;
             margin: 10px;
             cursor: pointer;
-            border: solid 1px #b623f5;
             transition: transform .2s;
         }
     }
 }
+.icon {
+    color: white;
+}
+
 .find__list__icon:hover {
     transform: scale(1.5);
 }
+
  @media all and (min-width: 768px) {
     .find {
         font-size: 1.5rem;

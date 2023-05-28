@@ -70,34 +70,35 @@
         justify-content: center;
         align-items: center;
         //border: 3px solid #5d0383;
-        font-family: $font-familyMono;
+        font-family: $font-family1;
         padding: 0.7rem;
         width: 18rem;
         height: 25rem;
         margin-bottom: 20px;
         opacity: 0.7;
         transition: 0.3s;
-        background-color: #D1D1D1;
+        background-color: #dbddec;
+        border-radius: 1rem;
 
          &__img {
             width: 10rem;
             height: 7rem;
             margin: 10px;
+            border-radius: 1rem;
          }
 
         &__title {
-            color: #231140;
+            color: #341860;
             margin: 10px;
-            font-family: $font-familyMono;
+            font-family: $font-family1;
             font-size: 1.2rem;
             font-weight: bold;
         }
 
         &__p {
          color: #472183;
-         font-family: $font-familyMono; 
          padding: 10px;
-         font-size: 0.9rem;
+         font-size: 1rem;
         }
 
         &__links {
@@ -131,6 +132,7 @@
         &__article {
             width: 18rem;
             height: 28rem;
+            
             &__img {
                 width: 13rem;
                 height: 8rem;
@@ -140,7 +142,7 @@
                 margin-top: 20px;
             }
             &__p {
-                font-size: 0.8rem;
+                font-size: 1.1rem;
                 padding: 5px;
             }
 
