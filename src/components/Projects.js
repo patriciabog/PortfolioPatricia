@@ -16,8 +16,8 @@ function Projects() {
             <div className=' projects'>
 
                 <article className='projects__article'>
-                        <img className='projects__article__img' src={memory} alt="HarryPotter" />
-                        <h4 className='projects__article__title'>Harry Potter </h4>
+                        <img className='projects__article__img' src={memory} alt="Memory Game" />
+                        <h4 className='projects__article__title'>Memory game </h4>
                         <p className='projects__article__p'>This is a memory game for kids, excelent to trin your brian, have planets images and sounds. Built with Html, CSS and JavaScript.</p>
                         <div className='projects__article__links'>
                              <a href="https://github.com/patriciabog/Memory-Game" target='blank' className='projects__article__links__icon'> <i class="fa-brands fa-github" ></i> GitHub</a>
