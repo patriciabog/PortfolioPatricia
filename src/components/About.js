@@ -6,6 +6,7 @@ import js from '../images/js.png';
 import react from '../images/physics.png';
 import mysql from '../images/mysql.png';
 import git from '../images/git.png';
+import css from '../images/css-3.png';
 
 function About() {
     return (
@@ -25,6 +26,7 @@ function About() {
             <h3 className='about__skills__title'>Skills</h3>
             <ul className='about__skills__list'>
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={html} alt="" /></li>
+                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={css} alt="" /></li>
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={sass} alt="" /></li>
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={js} alt="" /></li>
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={react} alt="" /></li>
