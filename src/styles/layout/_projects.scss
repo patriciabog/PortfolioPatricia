@@ -2,7 +2,7 @@
     width: 100%;
     padding: 10px;
     margin-top: 70px;
-    font-family: $font-familyMono;
+    font-family: $font-family1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,49 +69,100 @@
         flex-direction: column;  
         justify-content: center;
         align-items: center;
-        //border: 3px solid #5d0383;
+        border: 3px solid #7A86B6;
         font-family: $font-family1;
         padding: 0.7rem;
         width: 20rem;
-        height: 27rem;
+        height: 30rem;
         margin-bottom: 20px;
         opacity: 0.7;
         transition: 0.3s;
-        background-color: #dbddec;
         border-radius: 1rem;
 
          &__img {
-            width: 12rem;
-            height: 8rem;
+            width: 10rem;
+            height: 7.5rem;
             margin: 10px;
             border-radius: 1rem;
          }
 
         &__title {
-            color: #341860;
-            margin: 10px;
+            color: #5d0383;
+             margin-top: 1rem;
             font-family: $font-family1;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
 
         &__p {
-         color: #472183;
-         padding: 10px;
+         color: #474E68;
+         padding: 1rem;
          font-size: 1rem;
-        line-height: 1.3;
+         line-height: 1.3;
+        }
+        &__p2 {
+            margin-bottom: 1rem;
+            &__html {
+                background-color: #E0144C;
+                color: white;
+                font-size: 1.6rem;
+                padding: 0.2rem;
+                border-radius: 5px;
+
+            }
+            &__css {
+                background-color: #1363DF;
+                    color: white;
+                    font-size: 1.6rem;
+                    padding: 0.2rem;
+                    border-radius: 5.5px;
+            }
+            &__js {
+                background-color: #FDEA2E;
+                color: black;
+                font-size: 1.8rem;
+                padding: 0.1rem;
+                border-radius: 5.5px;
+            }
+            &__react {
+                background-color: black;
+                color: #10d5dc;
+                font-size: 1.6rem;
+                padding: 0.2rem;
+                border-radius: 40px;
+            }
+            &__git {
+                background-color: #E74646;
+                color: white;
+                font-size: 1.6rem;
+                padding: 0.2rem;
+                border-radius: 10px;
+            }
+            &__data {
+                color: #128783;
+                font-size: 1.8rem;
+                padding: 0.2rem;
+                border-radius: 10px;
+            }
+            &__sass {
+                color: #F35588;
+                font-size: 1.9rem;
+                padding: 0.2rem;
+                border-radius: 10px;
+            }
         }
 
         &__links {
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
+            padding: 1rem;
             &__icon {
                 margin-right: 15px;
                 color: white;
                 border: 2px solid #9501d4;
                 background-color: #9501d4;
-                padding: 5px;
+                width: 6rem;
+                height: 3rem;
+                border-radius: 40px;
+                padding: 0.5rem 1rem;
             }
         }
 
@@ -131,8 +182,8 @@
      
         //margin-left: 4rem;
         &__article {
-            width: 20rem;
-            height: 30rem;
+            width: 22rem;
+            height: 32rem;
             
             &__img {
                 width: 15rem;
@@ -143,8 +194,8 @@
                 margin-top: 1rem;
             }
             &__p {
-                font-size: 1.1rem;
-                padding: 0.5rem;
+                font-size: 1rem;
+               // padding: 0.5rem;
             }
 
         }
@@ -158,8 +209,8 @@
         gap: 1rem 4rem;
         
         &__article {
-            width: 22rem;
-            height: 32rem;
+            width: 24rem;
+            height: 34rem;
            
             &__img {
                 width: 15rem;
