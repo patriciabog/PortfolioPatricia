@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.5a202c47.css",
-    "main.js": "./static/js/main.04407f19.js",
-    "static/media/LoveSearch.png": "./static/media/LoveSearch.cdf9fc28570b0e30c2db.png",
+    "main.css": "./static/css/main.4b17aa66.css",
+    "main.js": "./static/js/main.00376097.js",
     "static/media/awsomeCards.png": "./static/media/awsomeCards.5c3b49331c6a2e302b12.png",
     "static/media/BackProject.png": "./static/media/BackProject.a7d63af1b22d47e5e460.png",
     "static/media/HarryPotter.png": "./static/media/HarryPotter.6b86400aa0dc4b27e1bf.png",
     "static/media/photo.png": "./static/media/photo.817173e35f04c51c3b4e.png",
+    "static/media/loveSearch.png": "./static/media/loveSearch.742aa08731f09120a9f7.png",
     "static/media/memory.png": "./static/media/memory.bcfdb7e1b6439058b5b8.png",
     "static/media/guessNumber.png": "./static/media/guessNumber.d42ec24b4e0302384220.png",
     "static/media/sass.png": "./static/media/sass.91714f748188b46f4e33.png",
@@ -18,11 +18,11 @@
     "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
     "static/media/git.png": "./static/media/git.7d664489ed331806ddc8.png",
     "index.html": "./index.html",
-    "main.5a202c47.css.map": "./static/css/main.5a202c47.css.map",
-    "main.04407f19.js.map": "./static/js/main.04407f19.js.map"
+    "main.4b17aa66.css.map": "./static/css/main.4b17aa66.css.map",
+    "main.00376097.js.map": "./static/js/main.00376097.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a202c47.css",
-    "static/js/main.04407f19.js"
+    "static/css/main.4b17aa66.css",
+    "static/js/main.00376097.js"
   ]
 }
