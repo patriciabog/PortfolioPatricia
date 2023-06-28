@@ -85,7 +85,7 @@ function Projects() {
                      <img className='projects__article__img' src={backProject} alt="Back project" />
                         <h4 className='projects__article__title'>Projectos Molones </h4>
                         <p className='projects__article__p'>This is a team project web app, which will allow you to create fully customized project cards and publish your projects.
-                        Built with Html, Sass, JavaScript, React and API, Zeplin, Git/GitHub, Gulp, MySQL Workbench, Node.js, Express.js. </p>
+                        Built with: Html, Sass, JavaScript, React and API, Zeplin, Git/GitHub, Gulp, MySQL Workbench, Node.js, Express.js. </p>
                          <p className='projects__article__p2'><span><i className='bx bxl-html5 projects__article__p2__html'></i></span> <span><i className='bx bxl-css3 projects__article__p2__css'></i></span> <span><i className='bx bxl-nodejs projects__article__p2__js' ></i></span> <span><i className='bx bxl-react projects__article__p2__react'></i></span><span><i className='bx bxl-git projects__article__p2__git'></i></span><span><i className='bx bxs-data projects__article__p2__data'></i></span><span><i className='bx bxl-sass projects__article__p2__sass'></i></span>
                          </p>
                         <div className='projects__article__links'>
