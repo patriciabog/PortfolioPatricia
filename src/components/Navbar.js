@@ -1,27 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import '../styles/App.scss';
+import { slide as Menu } from 'react-burger-menu';
 
 
 
-function Navbar() {
 
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
+  const handleMenuToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleMenuItemClick = () => {
+    setIsOpen(false); // Closes the menu after clicking an option
+  };
 return (
-  <nav className='nav'>
-    <ul className='nav__list'>
-        <li className='nav__icon'>
-          <Link className='icon-nav' to='/'><i class="fa-solid fa-house" ></i></Link>
+  <div className='nav-box'>
+    <nav onClick={handleMenuToggle}><i className="fa-solid fa-bars nav-icon"></i></nav>
+    <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} >
+      <ul className="nav__list">
+        <li className="nav__list__menu">
+          <Link to='/' onClick={handleMenuItemClick}>About me</Link>
         </li>
-        <li className='nav__icon'>
-           <Link className='icon-nav' to='/projects'> <i class="fa-solid fa-laptop-file"></i></Link>
+        <li className="nav__list__menu">
+          <Link to='/projects' onClick={handleMenuItemClick}>Projects</Link>
         </li>
-        <li className='nav__icon'>
-            <Link className='icon-nav' to='/contact'> <i class="fa-solid fa-envelope"></i></Link>
+        <li className="nav__list__menu">
+          <Link to='/contact' onClick={handleMenuItemClick}>Contact</Link>
         </li>
       </ul>
+    </Menu>
+   
         
-  </nav>
+  </div>
    
 )
 }

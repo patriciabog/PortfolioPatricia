@@ -1,32 +1,42 @@
+.nav-box {
+    margin-right: 4rem;
+    width: 4rem;
+}
+
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-    &__list {
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
+    background-color: #f2f2f2;
     }
-     &__icon {
-      margin: 5px;
-      padding: 0.6rem;
-      border-radius: 50%;
-      cursor: pointer;
-      background-color: white;
-      transition: transform .2s;
-    }
+
+/* menu style */
+.nav-icon {
+    margin-right: 2rem;
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    color: #b623f5;
 }
-.icon-nav {
-    color:#AE00FB; 
-    
+
+/* list style */
+.bm-item {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #d1d1d1;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    font-family: $font-familyMono;
+    padding: 1rem;
+    line-height: 3;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
-.nav__icon:hover {
-    transform: scale(1.5);
+
+.bm-item:hover {
+   color: #ffffff;
 }
 
 @media all and (min-width: 768px) {
-    .nav {
+    .nav-box {
         display: none;
     }
 }
+

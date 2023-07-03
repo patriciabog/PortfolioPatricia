@@ -1,6 +1,5 @@
 import React, { useState}  from 'react';
-
-
+import DownloadButton from './DownloadButton';
 
 function Contact() {
     const [formData, setFormData] = useState({
@@ -8,7 +7,6 @@ function Contact() {
     email: '',
     message: ''
   });
-
 
   const handleChange = (ev) => {
     setFormData({ ...formData, [ev.target.name]: ev.target.value });
@@ -29,34 +27,32 @@ return (
             target='blank' 
             className='contact__links__icon'> 
             <i class="fa-regular fa-envelope"></i> Email</a>
-
             <a href="https://www.linkedin.com/in/epmontesdeocaverastegui/" target='blank' 
             className='contact__links__icon'> 
             <i class="fa-brands fa-linkedin" ></i> Linkedin </a>
-
             <a href="https://github.com/patriciabog" 
             target='blank' className='contact__links__icon'>
             <i className="fa-brands fa-github"></i> GitHub </a>
         </div>
-           
-         <h2 className='form__title'>Contact form</h2>
-         <form className='form' >
+        <DownloadButton />  
+        <h2 className='form__title'>Contact form</h2>
+        <form className='form' >
             <div className="form__group">
-                 <label className='form__group__label' htmlFor="name">Name:</label>
-                 <input
-                 className='form__group__input'
-                 type="text"
-                 id="name"
-                 name="name"
-                 placeholder='Your name..'
-                 value={formData.name}
-                 onChange={handleChange}
-                 required
-                />
-              </div>
-             <div className="form__group">
-                <label  className='form__group__label' htmlFor="email">Email:</label>
-                <input
+              <label className='form__group__label' htmlFor="name">Name:</label>
+              <input
+                className='form__group__input'
+                type="text"
+                id="name"
+                name="name"
+                placeholder='Your name..'
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="form__group">
+              <label  className='form__group__label' htmlFor="email">Email:</label>
+              <input
                 className='form__group__input'
                 type="email"
                 id="email"
@@ -65,11 +61,11 @@ return (
                 value={formData.email}
                 onChange={handleChange}
                 required
-                />
-             </div>
-             <div className="form__group">
-                <label className='form__group__label' htmlFor="message">Message:</label>
-                <textarea
+              />
+            </div>
+            <div className="form__group">
+              <label className='form__group__label' htmlFor="message">Message:</label>
+              <textarea
                 className='form__group__text'
                 id="message"
                 name="message"
@@ -77,11 +73,11 @@ return (
                 value={formData.message}
                 onChange={handleChange}
                 required
-                ></textarea>
-             </div>
-             <button className='form__btn' type="submit" onSubmit={handleSubmit}>Submit</button>
+              ></textarea>
+            </div>
+            <button className='form__btn' type="submit" onSubmit={handleSubmit}>Submit</button>
         </form>
     </div>
-)
+  )
 }
 export default Contact;
