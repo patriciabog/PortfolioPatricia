@@ -1,12 +1,10 @@
-/* SECCIÓN DE IMPORT */
+
 import { Routes, Route, Link } from "react-router-dom";
 import Navbar from './Navbar';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
-
 import '../styles/App.scss';
-
 
 function App() {
   return (
@@ -25,41 +23,31 @@ function App() {
               <Link to='/contact'>Contact</Link>
           </li>
         </ul>
-        
           <Navbar/>
-        
       </header>
-     
- 
-     <main className='container'>  
-          
-      <Routes>
-      <Route path='/'
-      element={
-         <About/>
-      }></Route>
+    
+      <main className='container'>        
+        <Routes>
+           <Route path='/'
+           element={
+             <About/>
+           }></Route>
       
-      <Route path='/projects'
-      element={
-          <Projects/>
-      }></Route>
+           <Route path='/projects'
+            element={
+              <Projects/>
+            }></Route>
     
-    <Route path='/contact'
-      element={
-        <Contact/>
-      }></Route>
-     
-     </Routes>
-    
-     </main>
-     <footer className="footer">
-           <span className='footer__copyright'>ⒸPatricia Montes de oca</span>
+           <Route path='/contact'
+           element={
+               <Contact/>
+           }></Route>
+        </Routes>
+      </main>
+      <footer className="footer">
+        <span className='footer__copyright'>ⒸPatricia Montes de oca</span>
      </footer>
     </div>
   )
 }
-
-/* PROP-TYPES */
-
-/* EXPORT DEL COMPONENTE */
 export default App;

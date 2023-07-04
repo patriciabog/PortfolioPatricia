@@ -11,16 +11,16 @@
         color: #656b93;
         margin-top: 90px;
         margin-bottom: -2.5rem;
-        margin-left: -20rem;
+        margin-left: -10rem;
     }
     &__skills {
         font-family: $font-familyMono;
-        margin-top: 4rem;
+        margin: 3rem 0rem;
         display: flex;
+        flex-flow: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-   
         &__title {
             color: #472183;
             font-size: 1.2rem;
@@ -28,10 +28,10 @@
 
         }
         &__list{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
             
             &__img{
               margin: 0.5rem;
@@ -40,12 +40,10 @@
               &__icon {
                     width: 2rem;
                     height: 2rem;
-                    margin-bottom: 2rem;
                 }
             }
         }
-    }
-       
+    }     
 }
 
 
@@ -76,24 +74,33 @@ font-family: $font-family1;
 
     &__img {
         margin-top: 3rem;
-        width: 15rem;
-        height: 12rem;
-        border-radius: 2%;
-        border-radius: 2rem;
-    }
-
-        
+        padding-top: 3rem;
+        padding-left: 3rem;
+        border-top-right-radius:13rem;
+        border-bottom-left-radius: 13rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+        background-color: #d7c8de;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+       &__photo {
+            margin: 0.5rem;
+            width: 10rem;
+            height: 11rem;
+            border: none;
+       }
+    }    
 }
 
 
  @media all and (min-width: 768px) {
-    
      .about {
         padding: 10px;
-    
          &__title {
             font-size: 1.3rem;
-            
+            margin-left: -35rem;
             margin-bottom: -2.3em;
          }
          &__skills{
@@ -124,13 +131,13 @@ font-family: $font-family1;
           
             &__p {
                 margin-top: 20px;
-                }
+             }
         }
           
         &__img {
-             width: 18rem;
-             height: 16rem;
-             margin-top: 80px;
+            width: 18rem;
+            height: 16rem;
+            margin-top: 80px;
         }
      }
     
@@ -141,23 +148,22 @@ font-family: $font-family1;
             &__title {
                 font-size: 1.5rem;
                 margin-bottom: -5rem;
+                margin-left: -50rem;
             }
         }
     .intro {
         &__parraf {
-                font-size: 1.3rem;
-                padding: 3rem;
-               
-                &__p {
-                   margin-top: 20px;
-                 }
+            font-size: 1.3rem;
+            padding: 3rem;
+            &__p {
+                margin-top: 20px;
             }
+        }
         &__img {
             width: 30rem;
             height: 20rem;
             margin-right: 30px;
         }
-
     }
   }
   
@@ -169,8 +175,7 @@ font-family: $font-family1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
    
    &__subtitle {
         color: #472183;
@@ -196,7 +201,7 @@ font-family: $font-family1;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0.7rem;
+            padding: 0.8rem;
             margin: 10px;
             cursor: pointer;
             transition: transform .2s;
@@ -225,7 +230,6 @@ font-family: $font-family1;
                  border: solid 2px #b623f5;
              }
          }
-       
     }
     
  }
@@ -243,5 +247,5 @@ font-family: $font-family1;
          }
      }
                
-  }
+}
  

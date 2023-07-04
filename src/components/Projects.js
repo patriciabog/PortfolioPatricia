@@ -24,21 +24,17 @@ function Projects() {
                          <a href="https://patriciabog.github.io/Memory-Game/" target='blank' className='projects__article__links__icon'><i className="fa-solid fa-images"></i> Demo</a>
                     </div>
                </article>
-
-
                <article className='projects__article'>
                     <img className='projects__article__img' src={loveSearch} alt="LoveSearch" />
                     <h4 className='projects__article__title'>LoveSearch </h4>
-                    <p className='projects__article__p'>This web application was made using APIs. Once has been clike the button "Get Started!" you can see a list of people it's possible filter by gender and age or search by name. Built with:</p>
+                    <p className='projects__article__p'>This web application was made using APIs. Once you have clicked the button "Get Started!" you can see a list of people it's possible to filter by gender and age or search by name. Built with:</p>
                     <p className='projects__article__p2'><span><i className='bx bxl-html5 projects__article__p2__html'></i></span> <span><i className='bx bxl-css3 projects__article__p2__css'></i></span> <span><i className='bx bxl-nodejs projects__article__p2__js' ></i></span> <span><i className='bx bx-atom projects__article__p2__react'></i></span></p>
                     <div className='projects__article__links'>
                          <a href="https://github.com/patriciabog/LoveSearch" target='blank' className='projects__article__links__icon'> <i className="fa-brands fa-github" ></i> GitHub</a>
-                         
                          <a href="https://patriciabog.github.io/LoveSearch/" target='blank' className='projects__article__links__icon'><i className="fa-solid fa-images"></i> Demo</a>    
-               </div>
+                    </div>
                </article>
-
-                 <article className='projects__article'>
+               <article className='projects__article'>
                     <img className='projects__article__img' src={harryPotter} alt="HarryPotter" />
                     <h4 className='projects__article__title'>Harry Potter </h4>
                     <p className='projects__article__p'>In this web page has been developed with a list of Harry  Potter characters that we can filter by name or/and by house. Built with:</p>
@@ -48,7 +44,6 @@ function Projects() {
                          <a href="https://patriciabog.github.io/HarryPotter/" target='blank' className='projects__article__links__icon'><i class="fa-solid fa-images"></i> Demo</a>       
                     </div>
                 </article>
-
                 <article className='projects__article'>
                     <img className='projects__article__img' src={awsomeCards} alt="awsomeCards" />
                     <h4 className='projects__article__title'>Awsome Cards </h4>
@@ -59,7 +54,6 @@ function Projects() {
                          <a href="https://patriciabog.github.io/AwsomeCards/index.html" target='blank' className='projects__article__links__icon'><i className="fa-solid fa-images"></i> Demo</a>  
                     </div>
                 </article>
-
                 <article className='projects__article'>
                     <img className='projects__article__img' src={guessNumber} alt="guessNumber" />
                     <h4 className='projects__article__title'>Guess the Number </h4>
@@ -71,7 +65,6 @@ function Projects() {
                          <a href="https://patriciabog.github.io/Guess-the-number/" target='blank' className='projects__article__links__icon'><i className="fa-solid fa-images"></i> Demo</a>
                     </div>
                 </article>
-
                 <article className='projects__article'>
                     <img className='projects__article__img' src={backProject} alt="Back project" />
                     <h4 className='projects__article__title'>Projectos Molones </h4>

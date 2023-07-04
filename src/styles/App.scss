@@ -129,26 +129,31 @@ align-items: center;
     font-size: 0.7rem;
 }
 
+ button {
+     padding: 10px 20px;
+     background-color: #eaeaea;
+     color: #333;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin: 2rem;
+     font-size: 1rem;
+
+ }
+
+ button:hover {
+     background-color: #AE00FB;
+     color: white;
+ }
+
  @media all and (min-width: 768px) {
     .footer {
         margin-top: 13rem;
         font-size: 0.9rem;
     }
+    button {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
  }
- 
- button {
-  padding: 10px 20px;
-  background-color: #eaeaea;
-  color: #333;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 2rem;
-  
-}
-
-button:hover {
-  background-color: #AE00FB;
-  color: white;
-}
 

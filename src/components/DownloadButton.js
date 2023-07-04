@@ -7,10 +7,9 @@ const DownloadButton = () => {
             '_blank'
         );
     };
-
     return (
         <button onClick={handleDownload}>
-            Download Resume
+            Download CV
         </button>
     );
 };

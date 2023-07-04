@@ -7,6 +7,7 @@ import react from '../images/physics.png';
 import mysql from '../images/mysql.png';
 import git from '../images/git.png';
 import css from '../images/css-3.png';
+import vue from '../images/vue.png';
 import nodejs from '../images/nodejs.png';
 import DownloadButton from './DownloadButton';
 
@@ -20,7 +21,10 @@ function About() {
                <p className='intro__parraf__p'>Currently I'm looking for a new challenge where I can continue learning and improve my skills and knowledge. I have experience working within a scrum and agile metodologies.</p>
                <p className='intro__parraf__p'>Take a look at my GitHub for all my projects! </p>
             </p>
-            <img src={photo} alt="" className='intro__img'/>
+            <div className='intro__img'>
+                <img src={photo} alt="" className='intro__img__photo' />
+            </div>
+           
         </div>
         <DownloadButton />
         <div className='about__skills'>
@@ -34,6 +38,7 @@ function About() {
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={mysql} alt="" /></li>
                  <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={nodejs} alt="" /></li>
                  <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={git} alt="" /></li>
+                <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={vue} alt="" /></li>
             </ul>
         </div>
             <h3 className='find'>Find me on</h3>

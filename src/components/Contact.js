@@ -1,4 +1,5 @@
-import React, { useState}  from 'react';
+import React, { useState }  from 'react';
+import emailjs from 'emailjs-com';
 import DownloadButton from './DownloadButton';
 
 function Contact() {
@@ -15,7 +16,13 @@ function Contact() {
   const handleSubmit = (ev) => {
     ev.preventDefault();
     // Perform any further actions like sending the form data to a server
-    console.log(formData);
+
+    emailjs.sendForm('service_s7rab4m', 'template_uupyxgu', ev.target, 'YNRASqeRDMcxE8Dlt')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
     // Reset the form fields
     setFormData({ name: '', email: '', message: '' });
   };
@@ -36,7 +43,7 @@ return (
         </div>
         <DownloadButton />  
         <h2 className='form__title'>Contact form</h2>
-        <form className='form' >
+        <form className='form' onSubmit={handleSubmit} >
             <div className="form__group">
               <label className='form__group__label' htmlFor="name">Name:</label>
               <input
@@ -75,7 +82,7 @@ return (
                 required
               ></textarea>
             </div>
-            <button className='form__btn' type="submit" onSubmit={handleSubmit}>Submit</button>
+            <button className='form__btn' type="submit">Submit</button>
         </form>
     </div>
   )
