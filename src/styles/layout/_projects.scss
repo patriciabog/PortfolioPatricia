@@ -1,6 +1,6 @@
 .box {
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
     margin-top: 70px;
     font-family: $font-family1;
     display: flex;
@@ -88,15 +88,15 @@
 
         &__title {
             color: #5d0383;
-             margin-top: 1rem;
+            margin-top: 1rem;
             font-family: $font-family1;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: bold;
         }
 
         &__p {
          color: #474E68;
-         padding: 1rem;
+         padding: 0.5rem 0.2rem;
          font-size: 1rem;
          line-height: 1.3;
         }
@@ -149,6 +149,11 @@
                 font-size: 1.9rem;
                 padding: 0.2rem;
                 border-radius: 10px;
+            }
+            &__vue {
+                color: #27AA80;
+                font-size: 1.9rem;
+                padding: 0.2rem;
             }
         }
 

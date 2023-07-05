@@ -15,20 +15,24 @@ const Navbar = () => {
   };
 return (
   <div className='nav-box'>
-    <nav onClick={handleMenuToggle}><i className="fa-solid fa-bars nav-icon"></i></nav>
-    <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} right={true}>
-      <ul className="nav__list">
-        <li className="nav__list__menu">
-          <Link to='/' onClick={handleMenuItemClick}>About me</Link>
-        </li>
-        <li className="nav__list__menu">
-          <Link to='/projects' onClick={handleMenuItemClick}>Projects</Link>
-        </li>
-        <li className="nav__list__menu">
-          <Link to='/contact' onClick={handleMenuItemClick}>Contact</Link>
-        </li>
-      </ul>
-    </Menu>     
+   
+    <div>
+      <nav onClick={handleMenuToggle}><i className="fa-solid fa-bars nav-icon"></i></nav>
+      <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} right={true}>
+        <ul className="nav__list">
+          <li className="nav__list__menu">
+            <Link to='/' onClick={handleMenuItemClick}>About me</Link>
+          </li>
+          <li className="nav__list__menu">
+            <Link to='/projects' onClick={handleMenuItemClick}>Projects</Link>
+          </li>
+          <li className="nav__list__menu">
+            <Link to='/contact' onClick={handleMenuItemClick}>Contact</Link>
+          </li>
+        </ul>
+      </Menu>  
+    </div>
+       
   </div>  
  )
 }

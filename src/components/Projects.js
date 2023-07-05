@@ -5,7 +5,7 @@ import awsomeCards from '../images/awsomeCards.png'
 import guessNumber from '../images/guessNumber.png'
 import backProject from '../images/BackProject.png'
 import memory from '../images/memory.png'
-
+import cashflow from '../images/cashflow.png';
 function Projects() {
     return (
         <div className='box'>
@@ -14,6 +14,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
            </p>
             <div className=' projects'>
+                   <article className='projects__article'>
+                        <img className='projects__article__img' src={cashflow} alt="CashFlow" />
+                        <h4 className='projects__article__title'>CashFlow</h4>
+                        <p className='projects__article__p'>This web app has been created to assist with finance management by recording all income and expenses over a span of three months. The graphic displays the changes over time. By clicking the orange button, users can add a new transaction using a form. Built with:</p>
+                        <p className='projects__article__p2'><span><i className='bx bxl-html5 projects__article__p2__html'></i></span> <span><i className='bx bxl-css3 projects__article__p2__css'></i></span> <span><i className='bx bxl-nodejs projects__article__p2__js' ></i></span> <span><i className="fa-brands fa-vuejs projects__article__p2__vue"></i></span></p>
+                        <div className='projects__article__links'>
+                             <a href="https://github.com/patriciabog/CashFlow" target='blank' className='projects__article__links__icon'> <i className="fa-brands fa-github" ></i> GitHub</a>
+                             <a href="https://financeapp-cashflow.netlify.app/" target='blank' className='projects__article__links__icon'><i className="fa-solid fa-images"></i> Demo</a>
+                        </div>
+                   </article>
                 <article className='projects__article'>
                     <img className='projects__article__img'  src={memory} alt="Memory Game" />
                     <h4 className='projects__article__title'>Memory game </h4>

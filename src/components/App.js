@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <header className='header'>
-        <Link className="header__title" to="/">Portfolio <i class="fa-solid fa-laptop-code"></i>
+        <Link className="header__title" to="/">Portfolio <i className="fa-solid fa-laptop-code"></i>
         </Link>
         <ul className="header__list">
           <li className="header__list__menu">
@@ -23,7 +23,7 @@ function App() {
               <Link to='/contact'>Contact</Link>
           </li>
         </ul>
-          <Navbar/>
+        <Navbar />
       </header>
     
       <main className='container'>        
