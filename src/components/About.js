@@ -14,11 +14,11 @@ import DownloadButton from './DownloadButton';
 function About() {
     return (
     <div className='about'>
-        <h3 className='about__title'> Hi everyone! </h3>
+        <h3 className='about__title'> Hi everyone!   </h3>
         <div className='intro'>
            <p className='intro__parraf'>
-               <p className='intro__parraf__p'>I'm <span  className='intro__parraf__p__name'>Patricia Montes de oca Verastegui</span> Web Developer, over the past few months, I have worked hard to reinvent myself, transitioning from a customer success role in SaaS companies to the programming world. I have knowledge of HTML5, JavaScript, CSS/SASS, React, MySQL and basic knowledge of APIs and backend programming in applications with Node.js, Express.js, MongoDB, Docker.</p>
-               <p className='intro__parraf__p'>Currently I'm looking for a new challenge where I can continue learning and improve my skills and knowledge. I have experience working within a scrum and agile metodologies.</p>
+                    <p className='intro__parraf__p'>I'm <span className='intro__parraf__p__name'>Patricia Montes de oca Verastegui</span> Full Stack Web Developer, over the past few months, I have worked hard to reinvent myself, transitioning from Medical Laboratories and customer service roles to the programming world. I have knowledge of Frontend HTML5, JavaScript, CSS/SASS, React, Vue.js, Rest API. Data bases MySQL, MongoDB and basic knowledge of Backend programming in applications with Node.js, Express.js, Docker.</p>
+                    <p className='intro__parraf__p'> I am genuinely excited about embracing new challenges, perpetually expanding my knowledge of emerging technologies, and constantly pushing the boundaries of my skills and expertise every single day.</p>
                <p className='intro__parraf__p'>Take a look at my GitHub for all my projects! </p>
             </p>
             <div className='intro__img'>
