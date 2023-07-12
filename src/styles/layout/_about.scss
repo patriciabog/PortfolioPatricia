@@ -12,6 +12,8 @@
         margin-top: 90px;
         margin-bottom: -2.5rem;
         margin-left: -10rem;
+        animation: move-left-right 2s 1;
+        animation-fill-mode: initial;
     }
     &__skills {
         font-family: $font-familyMono;
@@ -25,6 +27,8 @@
             color: #472183;
             font-size: 1.2rem;
             text-transform: uppercase;
+            animation: move-left-right 3s 3;
+            animation-fill-mode: initial;
 
         }
         &__list{
@@ -46,7 +50,14 @@
     }     
 }
 
-
+@keyframes move-left-right {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+}
 
 .intro {
 display: flex;
@@ -59,6 +70,8 @@ font-family: $font-family1;
         color: #656b93;
         padding: 1rem;
         margin-top: 2rem;
+        animation: move-left-right 3s 1;
+        animation-fill-mode: initial;
     
         &__p {
             margin-top: 1.1rem;
@@ -68,8 +81,7 @@ font-family: $font-family1;
                 color: #b623f5;
                 font-weight: bold;
            }
-        } 
-        
+        }  
     }
 
     &__img {
@@ -93,7 +105,15 @@ font-family: $font-family1;
        }
     }    
 }
+keyframes move-left-right {
+    from {
+        transform: translateX(-100px);
+    }
 
+    to {
+        transform: translateX(10px);
+    }
+}
 
  @media all and (min-width: 768px) {
      .about {
@@ -131,7 +151,7 @@ font-family: $font-family1;
           
             &__p {
                 margin-top: 20px;
-             }
+            }
         }
           
         &__img {
@@ -140,7 +160,6 @@ font-family: $font-family1;
             margin-top: 80px;
         }
      }
-    
  }
   @media all and (min-width: 1200px) {
     .about {
@@ -165,7 +184,7 @@ font-family: $font-family1;
             margin-right: 30px;
         }
     }
-  }
+}
   
 .find {
     margin-top: 50px;
@@ -230,8 +249,7 @@ font-family: $font-family1;
                  border: solid 2px #b623f5;
              }
          }
-    }
-    
+    }  
  }
   @media all and (min-width: 1200px) {
     .find {
@@ -242,10 +260,8 @@ font-family: $font-family1;
              &__icon {
                  width: 40px;
                  height: 40px;
-                   
             }
          }
-     }
-               
+     }             
 }
  

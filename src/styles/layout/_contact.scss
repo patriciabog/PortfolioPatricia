@@ -13,24 +13,31 @@
         color: #472183;
         text-transform: uppercase;
         padding: 10px;
+        animation: move-left-right 2s 1;
+        animation-fill-mode: initial;
        
     }
     &__links {
        margin: 1rem;
        display: flex;
        flex-direction: column;
-       opacity: 0.6;
-       transition: 0.3s;
-       
+   
       &__icon {
         margin: 1rem;
         color: white;
         background-color:#9501d4;
         padding: 0.8rem;
         cursor: pointer;
-       
       }
-    
+    }
+}
+@keyframes move-left-right {
+    from {
+        transform: translateX(-100px);
+    }
+
+    to {
+        transform: translateX(10px);
     }
 }
 
@@ -43,7 +50,6 @@
             font-size: 2rem;
             margin: 1rem;
             margin-top: 50px;
-           
         }
         &__links {
             display: flex;
@@ -60,37 +66,35 @@
  }
 
 @media all and (min-width: 1200px) {
-        .contact {
-           
-                &__title {
-                    font-size: 2rem;
-                }
-        
-                &__links {
-                    display: flex;
-                    flex-direction: row;
-        
-                    &__icon {
-                        padding: 1rem;
-                        font-size: 1.4rem;
-                        margin: 2rem;
-                        
-                    }
-                }
+    .contact {
+        &__title {
+            font-size: 2rem;
+        }
+
+        &__links {
+            display: flex;
+            flex-direction: row;
+
+            &__icon {
+                padding: 1rem;
+                font-size: 1.4rem;
+                margin: 2rem;
+                
             }
-  }
+        }
+    }
+}
 
 .form {
-   color: #472183;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    color: #472183;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 10%;
-   //border: 2px solid #7301a3;
-   background-color:#dbddec;
-   padding: 1rem;
+    background-color:#dbddec;
+    padding: 1rem;
    
    &__title {
     padding: 10px;
@@ -99,7 +103,6 @@
     font-family: $font-familyMono;
     margin: 20px;
     margin-top: 40px;
-   // margin-left: 2rem;
    }
    &__group {
         padding: 5px;
@@ -155,8 +158,7 @@
     .form {
     
         &__title {
-          font-size: 1.5rem;
-        //    margin: 30px;
+           font-size: 1.5rem;
             margin-top: 70px;
         }
         &__group {
@@ -191,7 +193,6 @@
             font-size: 1.2rem;
             padding: 10px;
         }
-        
     }
  }
 @media all and (min-width: 1200px) {
@@ -204,7 +205,6 @@
         &__group {
             width: 28rem;
             margin: 1rem;
-
         }
     }
 }
