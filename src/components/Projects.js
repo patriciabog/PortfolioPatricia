@@ -6,10 +6,11 @@ import guessNumber from '../images/guessNumber.png'
 import backProject from '../images/BackProject.png'
 import memory from '../images/memory.png'
 import cashflow from '../images/cashflow.png';
+
 function Projects() {
     return (
         <div className='box'>
-            <h3 className='box__title'>My Projects</h3>
+            <h3 className='box__title'>Projects</h3>
             <p className='box__subtitle'>
           Here are a few projects I've worked on recently.
            </p>

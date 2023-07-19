@@ -14,12 +14,14 @@ import DownloadButton from './DownloadButton';
 function About() {
     return (
     <div className='about'>
-        <h3 className='about__title'> Hi everyone!   </h3>
+        <h3 className='about__title'> About me   </h3>
         <div className='intro'>
            <p className='intro__parraf'>
-                    <p className='intro__parraf__p'>I'm <span className='intro__parraf__p__name'>Patricia Montes de oca Verastegui</span> Full Stack Web Developer, over the past few months, I have worked hard to reinvent myself, transitioning from Medical Laboratories and customer service roles to the programming world. I have knowledge of Frontend HTML5, JavaScript, CSS/SASS, React, Vue.js, Rest API. Data bases MySQL, MongoDB and basic knowledge of Backend programming in applications with Node.js, Express.js, Docker.</p>
-                    <p className='intro__parraf__p'> I am genuinely excited about embracing new challenges, perpetually expanding my knowledge of emerging technologies, and constantly pushing the boundaries of my skills and expertise every single day.</p>
-               <p className='intro__parraf__p'>Take a look at my GitHub for all my projects! </p>
+                    <p className='intro__parraf__p'> Hi everyone! I am <span className='intro__parraf__p__name'>Patricia Montes de oca Verastegui</span> Frontend Developer. 
+                    <p className='intro__parraf__p'>
+                        Over the past few years, I have dedicated myself to reinventing my career, transitioning from Medical Laboratories and customer service roles to the programming world. I possess a strong knowledge of Frontend technologies such as HTML5, JavaScript, CSS/SASS, React, Vue, and Rest API. Additionally, I am familiar with databases like MySQL and have a basic understanding of Backend programming using Node.js and Express.</p>
+                    </p>
+                    <p className='intro__parraf__p'> I am genuinely excited about embracing new challenges, continuously expanding my knowledge of emerging technologies, and consistently pushing the boundaries of my skills and expertise every single day.</p>
             </p>
             <div className='intro__img'>
                 <img src={photo} alt="" className='intro__img__photo' />

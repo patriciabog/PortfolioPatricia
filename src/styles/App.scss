@@ -4,6 +4,7 @@
 @import 'layout/about';
 @import 'layout/projects';
 @import 'layout/contact';
+@import 'layout/landing';
 
 * {
     box-sizing: border-box;
@@ -129,7 +130,7 @@ align-items: center;
     font-size: 0.7rem;
 }
 
- button {
+ .button {
      padding: 10px 20px;
      background-color: #eaeaea;
      color: #333;
@@ -141,7 +142,7 @@ align-items: center;
 
  }
 
- button:hover {
+ .button:hover {
      background-color: #AE00FB;
      color: white;
  }

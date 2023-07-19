@@ -21,13 +21,16 @@ return (
       <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} right={true}>
         <ul className="nav__list">
           <li className="nav__list__menu">
-            <Link to='/' onClick={handleMenuItemClick}>About me</Link>
+            <Link to='/about' onClick={handleMenuItemClick}>About</Link>
           </li>
           <li className="nav__list__menu">
             <Link to='/projects' onClick={handleMenuItemClick}>Projects</Link>
           </li>
           <li className="nav__list__menu">
             <Link to='/contact' onClick={handleMenuItemClick}>Contact</Link>
+          </li>
+          <li className="nav__list__menu">
+            <Link to='/' onClick={handleMenuItemClick}>Home</Link>
           </li>
         </ul>
       </Menu>  

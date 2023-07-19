@@ -8,7 +8,7 @@ const DownloadButton = () => {
         );
     };
     return (
-        <button onClick={handleDownload}>
+        <button className='button' onClick={handleDownload}>
             Download CV
         </button>
     );

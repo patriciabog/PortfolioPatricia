@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Navbar from './Navbar';
 import About from './About';
 import Contact from './Contact';
+import Landing from './Landing';
 import Projects from './Projects';
 import '../styles/App.scss';
 
@@ -14,7 +15,7 @@ function App() {
         </Link>
         <ul className="header__list">
           <li className="header__list__menu">
-              <Link to='/'>About me</Link>
+              <Link to='/about'>About</Link>
           </li>
           <li className="header__list__menu">
               <Link to='/projects'>Projects</Link>
@@ -25,10 +26,13 @@ function App() {
         </ul>
         <Navbar />
       </header>
-    
       <main className='container'>        
         <Routes>
-           <Route path='/'
+          <Route path='/'
+            element={
+              <Landing />
+            }></Route>
+           <Route path='/about'
            element={
              <About/>
            }></Route>
