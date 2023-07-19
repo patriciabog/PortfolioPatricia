@@ -15,6 +15,9 @@ function App() {
         </Link>
         <ul className="header__list">
           <li className="header__list__menu">
+            <Link to='/'>Home</Link>
+          </li>
+          <li className="header__list__menu">
               <Link to='/about'>About</Link>
           </li>
           <li className="header__list__menu">

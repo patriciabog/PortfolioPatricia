@@ -76,7 +76,7 @@
         flex-direction: column;  
         justify-content: center;
         align-items: center;
-        border: 1px solid #a7aab6;
+        border: 0.5px solid #a7aab6;
         font-family: $font-family1;
         width: 20rem;
         height: 22rem;
@@ -138,6 +138,7 @@
     text-align: justify;
     height: 75%;
     transition: all .5s;
+    overflow: scroll;
 }
 
  .projects__article:hover .content {
