@@ -15,16 +15,16 @@ function App() {
         </Link>
         <ul className="header__list">
           <li className="header__list__menu">
-            <Link to='/'>Home</Link>
+            <Link to='/' className="header__link">Home</Link>
           </li>
           <li className="header__list__menu">
-              <Link to='/about'>About</Link>
+            <Link to='/about' className="header__link">About</Link>
           </li>
           <li className="header__list__menu">
-              <Link to='/projects'>Projects</Link>
+            <Link to='/projects' className="header__link">Projects</Link>
           </li>
           <li className="header__list__menu">
-              <Link to='/contact'>Contact</Link>
+            <Link to='/contact' className="header__link">Contact</Link>
           </li>
         </ul>
         <Navbar />

@@ -30,8 +30,8 @@
     cursor: pointer;
 }
 
-.bm-item:hover {
-   color: #ffffff;
+.nav .nav__list .nav__link:active {
+    color: #b623f5;
 }
 
 @media all and (min-width: 768px) {
