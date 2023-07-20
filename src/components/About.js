@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../images/photo.png';
+import photo from '../images/photo.jpg';
 import html from '../images/html-5.png';
 import sass from '../images/sass.png';
 import js from '../images/js.png';

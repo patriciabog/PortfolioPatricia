@@ -99,9 +99,9 @@ font-family: $font-family1;
         align-items: center;
         border: none;
        &__photo {
-            margin: 0.5rem;
-            width: 10rem;
-            height: 11rem;
+            margin: 1rem;
+            width: 12rem;
+            height: 13rem;
             border: none;
        }
     }    
@@ -154,9 +154,12 @@ keyframes move-left-right {
         }
           
         &__img {
-            width: 18rem;
-            height: 16rem;
-            margin-top: 80px;
+            margin-top: 0.5rem;
+            &__photo {
+                margin: 0.5rem;
+                width: 12rem;
+                height: 13rem;
+            }
         }
      }
  }
@@ -174,9 +177,12 @@ keyframes move-left-right {
             margin: 3rem;
         }
         &__img {
-            width: 30rem;
-            height: 20rem;
             margin-right: 30px;
+            &__photo {
+                margin: 1.5rem;
+                width: 15rem;
+                height: 16rem;
+            }
         }
     }
 }
