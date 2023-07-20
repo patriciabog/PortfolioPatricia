@@ -68,10 +68,11 @@ font-family: $font-family1;
     &__parraf {
         font-size: 1rem;
         color: #656b93;
-        padding: 1rem;
+        padding: 0.5rem;
         margin-top: 2rem;
         animation: move-left-right 3s 1;
         animation-fill-mode: initial;
+        text-align: justify;
     
         &__p {
             margin-top: 1.1rem;
@@ -145,7 +146,7 @@ keyframes move-left-right {
         &__parraf {
             font-size: 1.2rem;
             padding: 1rem;
-            margin: 0rem 2rem;
+            margin: 0rem 0.5rem;
           
             &__p {
                 margin-top: 20px;
@@ -170,8 +171,7 @@ keyframes move-left-right {
         &__parraf {
             font-size: 1.3rem;
             padding: 2rem 3rem;
-            margin: 0rem 5rem;
-        
+            margin: 3rem;
         }
         &__img {
             width: 30rem;

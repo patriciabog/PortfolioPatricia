@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import '../styles/App.scss';
 import { slide as Menu } from 'react-burger-menu';
+import { FaBars, FaTimes } from 'react-icons/fa'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,9 @@ return (
   <div className='nav-box'>
    
     <div>
-      <nav onClick={handleMenuToggle}><i className="fa-solid fa-bars nav-icon"></i></nav>
+      <nav onClick={handleMenuToggle}>
+        {isOpen ? <FaTimes className="nav-icon" /> : <FaBars className="nav-icon" />}
+      </nav>
       <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} right={true}>
         <ul className="nav__list">
           <li className="nav__list__menu">
