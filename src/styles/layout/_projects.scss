@@ -75,13 +75,12 @@
         flex-direction: column;  
         justify-content: center;
         align-items: center;
-        border: 0.5px solid #a7aab6;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         font-family: $font-family1;
         width: 20rem;
         height: 22rem;
         margin-bottom: 2rem;
         transition: 0.3s;
-        border-radius: 1rem;
         position: relative;
         overflow: hidden;
 
