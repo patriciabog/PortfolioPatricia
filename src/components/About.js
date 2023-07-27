@@ -19,7 +19,7 @@ function About() {
            <p className='intro__parraf'>
                     <p className='intro__parraf__p'> Hi everyone! I am <span className='intro__parraf__p__name'>Patricia Montes de oca Verastegui</span> Web Developer. 
                     <p className='intro__parraf__p'>
-                        Over the past few years, I have dedicated myself to reinventing my career, transitioning from roles in Medical Laboratories and Customer Success to the programming world. I possess a strong knowledge of Frontend technologies, including HTML5, JavaScript, CSS/SASS, React, Vue, and Rest API. Additionally, I am familiar with databases like MySQL and have a basic understanding of Backend programming using Node.js and Express.</p>
+                        Over the past few years, I have been dedicated to reinventing my career by transitioning from Customer Success and Customer Service roles to the programming world. I possess a strong knowledge of Frontend technologies, including HTML5, JavaScript, CSS/SASS, React, as well as Vue, and Rest API. Additionally, I am familiar with working with databases such as MySQL and have a basic understanding of Backend programming using Node.js and Express.js.</p>
                     </p>
                     <p className='intro__parraf__p'> I am genuinely excited about embracing new challenges, continuously expanding my knowledge of emerging technologies, and pushing the boundaries of my skills and expertise every day.</p>
             </p>
