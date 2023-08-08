@@ -165,7 +165,6 @@ keyframes move-left-right {
  }
   @media all and (min-width: 1200px) {
     .about {
-           margin-top: 2rem;
             &__title {
                 font-size: 2rem; 
             }
@@ -173,7 +172,6 @@ keyframes move-left-right {
     .intro {
         &__parraf {
             font-size: 1.3rem;
-            padding: 2rem 3rem;
             margin: 3rem;
         }
         &__img {
