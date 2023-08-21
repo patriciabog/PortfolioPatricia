@@ -33,10 +33,10 @@ return (
             <a href="mailto:patriciamvbog@gmail.com" 
             target='blank' 
             className='contact__links__icon'> 
-            <i class="fa-regular fa-envelope"></i> Email</a>
+            <i className="fa-regular fa-envelope"></i> Email</a>
             <a href="https://www.linkedin.com/in/epmontesdeocaverastegui/" target='blank' 
             className='contact__links__icon'> 
-            <i class="fa-brands fa-linkedin" ></i> Linkedin </a>
+            <i className="fa-brands fa-linkedin" ></i> Linkedin </a>
             <a href="https://github.com/patriciabog" 
             target='blank' className='contact__links__icon'>
             <i className="fa-brands fa-github"></i> GitHub </a>
