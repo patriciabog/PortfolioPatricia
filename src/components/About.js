@@ -38,8 +38,10 @@ function About() {
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={js} alt="" /></li>
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={react} alt="" /></li>
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={mysql} alt="" /></li>
-                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={nodejs} alt="" /></li>
-                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={git} alt="" /></li>
+                 <li
+                className='about__skills__list__img'><img className='about__skills__list__img__icon' src={nodejs} alt="" /></li>
+                 <li
+                className='about__skills__list__img'><img className='about__skills__list__img__icon' src={git} alt="" /></li>
                 <li className='about__skills__list__img'><img className='about__skills__list__img__icon' src={vue} alt="" /></li>
             </ul>
         </div>

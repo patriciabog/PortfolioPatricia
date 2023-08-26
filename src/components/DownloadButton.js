@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadButton = () => {
     const handleDownload = () => {
         window.open(
-            'https://drive.google.com/file/d/16SC5CtSqFDK2UNnUNHJkvO-Tch5-vmbr/view?usp=sharing',
+            '',
             '_blank'
         );
     };
