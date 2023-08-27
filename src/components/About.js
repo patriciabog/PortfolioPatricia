@@ -17,7 +17,7 @@ function About() {
         <h3 className='about__title'> About me   </h3>
         <div className='intro'>
            <p className='intro__parraf'>
-                    <p className='intro__parraf__p'> Hi everyone! I am <span className='intro__parraf__p__name'>Patricia Montes de oca Verastegui</span> Frontend Developer. 
+                    <p className='intro__parraf__p'> Hi everyone! I am <span className='intro__parraf__p__name'>Patricia Montes de oca Verastegui</span> Web Developer. 
                     <p className='intro__parraf__p'>
                         Over the past few years, I have been dedicated to reinventing my career by transitioning from Customer Success and Customer Service roles to the programming world. I possess a strong knowledge of Frontend technologies, including HTML5, JavaScript, CSS/SASS, React, as well as Vue, and Rest API. Additionally, I am familiar with working with databases such as MySQL and have a basic understanding of Backend programming using Node.js and Express.js.</p>
                     </p>
