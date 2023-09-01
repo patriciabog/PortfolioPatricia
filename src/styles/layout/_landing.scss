@@ -28,7 +28,7 @@
     &__p {
         font-size: 0.8rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #404567;
+        color: #2e3149;
         line-height: 1.5;
         margin: 1rem;
     }
@@ -80,7 +80,7 @@
 
 @media all and (min-width: 768px) {
     .landing {
-        margin-top: 6rem;
+        margin-top: 2rem;
         &__title {
             font-size: 4rem;
             text-align: center;
@@ -107,7 +107,7 @@
 
 @media all and (min-width: 1200px) {
     .landing {
-            margin-top: 5rem;
+            margin-top: 0rem;
     
             &__title {
                 font-size: 4rem;
@@ -119,7 +119,7 @@
             }
     
             &__p {
-                font-size: 1.8rem;
+                font-size: 1.5rem;
                 padding: 3rem 5rem;
             }
     

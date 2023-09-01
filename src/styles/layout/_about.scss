@@ -32,22 +32,22 @@
             animation-fill-mode: initial;
         }
         &__list{
-           display: flex;
-           flex-wrap: wrap;
-           justify-content: center;
-           align-items: center;
-            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+                
             &__img{
-              margin: 0.5rem;
-              margin-top: 2rem;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-              gap: 1rem;
-              color: #404567;
-              font-family: $font-family1;
-              &__icon {
+                margin: 0.5rem;
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                color: #2e3149;
+                font-family: $font-family1;
+                &__icon {
                     width: 2rem;
                     height: 2rem;
                 }
@@ -73,7 +73,7 @@ align-items: center;
 font-family: $font-family1;
     &__parraf {
         font-size: 1rem;
-        color: #404567;
+        color: #2e3149;
         padding: 0.5rem;
         margin-top: 2rem;
         animation: move-left-right 3s 1;
