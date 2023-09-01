@@ -1,0 +1,43 @@
+{
+    "header.home": "Home",
+    "header.about": "About",
+    "header.projects": "Projects",
+    "header.contact": "Contact",
+    "landing": {
+        "description": "Passionate Front End Developer eager to expand skills and embrace new challenges.",
+        "buttonText":"About Me"
+    },
+    "about": {
+        "title": "About me",
+        "name": "I'm",
+        "parraf": "I have a background in science with experience as a Clinical Laboratory Technician in Spain. Shortly after I moved to the Netherlands, where I worked in After-Sales Service and IT program Translator. During this period, I had my first contact with programming. Since then, my interest in training in this field has grown rapidly. I am currently in Ireland where I worked as a Customer Success at a SaaS company which provided me with the key to enroll in an intensive Adalab course to become a Web Developer. ",
+        "parraf2": "Today I feel motivated to continue learning in the technology industry and grow professionally in a company that gives me an opportunity.",
+        "skills": "Skills"
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle":"Here are a few projects I've worked on recently.",
+        "cashFlowDescription": "This is a personal project, where I wanted to put Vue.js into practice. The biggest challenge was using traditional HTML as templates that Vue uses, it was like learning another way of approaching a problem.",
+        "memoryGameDescription": "This is a personal project, responding to my son's request I have created a teaching game to practice JavaScript by applying sounds. The challenge I had was to reset the cards that I solved with a for function.",
+        "harryPotterDescription": " This is a bootcamp evaluation project at Adalab where I had to apply what I learned about React and using APIs. The challenge I faced was understanding lifting state up and the connection between the parent and the children, and how they passed information to each other. It's quite simple: from child to child, they cannot directly exchange information; you have to inform the parent first and then let the parent decide whether to share that information with the other child. That's what lifting state up is all about.",
+        "awsomeCardsDescription": "This is a real bootcamp team project where I applied JavaScript and CSS/SASS in practice while working under an Agile and Scrum system. The biggest challenge I encountered was resolving conflicts during commits to the master branch. However, this challenge was overcome through fluid team communication.",
+        "guessNumberDescription": "This project was one of the initial bootcamp assessments involving JavaScript and CSS. The most significant challenge was completing it within a single morning, with just one week of learning JavaScript. Thanks to Stack Overflow and a solid understanding of the fundamental concepts needed for its application, my game worked!"
+    },
+    "contact": {
+        "title":"Contact me",
+        "formTitle":"Contact form",
+        "formName":"Name:",
+        "formEmail":"Email:",
+        "formMessage":"Message:",
+        "formNamePlaceholder":"Your name...",
+        "formEmailPlaceholder":"Your email@example.com",
+        "formMessagePlaceholder":"Your message here....",
+        "btnSubmit": "Submit"
+    },
+    "navbar": {
+        "about":"About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "home": "Home"      
+    }
+}

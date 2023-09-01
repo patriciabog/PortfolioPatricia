@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import '../styles/App.scss';
 import { slide as Menu } from 'react-burger-menu';
-import { FaBars, FaTimes } from 'react-icons/fa'; 
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMenuToggle = () => {
@@ -12,34 +14,48 @@ const Navbar = () => {
   };
 
   const handleMenuItemClick = () => {
-    setIsOpen(false); // Closes the menu after clicking an option
+    setIsOpen(false);
   };
-return (
-  <div className='nav-box'>
-   
-    <div>
+
+  useEffect(() => {
+    let timeoutId;
+
+    if (isOpen) {
+      timeoutId = setTimeout(() => {
+        setIsOpen(false);
+      }, 4000);
+    }
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [isOpen]);
+
+  const menuItems = [
+    { to: '/about', label: t('navbar.about') },
+    { to: '/projects', label: t('navbar.projects') },
+    { to: '/contact', label: t('navbar.contact') },
+    { to: '/', label: t('navbar.home') },
+  ];
+
+  return (
+    <div className='nav-box'>
       <nav onClick={handleMenuToggle}>
         {isOpen ? <FaTimes className="nav-icon" /> : <FaBars className="nav-icon" />}
       </nav>
       <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} right={true}>
         <ul className="nav__list">
-          <li className="nav__list__menu">
-            <Link to='/about' className='nav__link' onClick={handleMenuItemClick}>About</Link>
-          </li>
-          <li className="nav__list__menu">
-            <Link to='/projects' className='nav__link'  onClick={handleMenuItemClick}>Projects</Link>
-          </li>
-          <li className="nav__list__menu">
-            <Link to='/contact' className='nav__link'  onClick={handleMenuItemClick}>Contact</Link>
-          </li>
-          <li className="nav__list__menu">
-            <Link to='/' className='nav__link' onClick={handleMenuItemClick}>Home</Link>
-          </li>
+          {menuItems.map((item, index) => (
+            <li key={index} className="nav__list__menu">
+              <Link to={item.to} className='nav__link' onClick={handleMenuItemClick}>
+                {item.label}
+              </Link>
+            </li>
+          ))}
         </ul>
-      </Menu>  
+      </Menu>
     </div>
-       
-  </div>  
- )
+  );
 }
+
 export default Navbar;
