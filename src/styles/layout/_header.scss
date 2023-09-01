@@ -127,3 +127,13 @@
      height: 2rem;
      cursor: pointer;
  }
+@media all and (min-width: 768px) {
+    .language {
+        margin-top: 7rem;
+    }
+ }
+ @media all and (min-width: 1200px) {
+        .language {
+            margin-top: 5rem;
+        }
+    }

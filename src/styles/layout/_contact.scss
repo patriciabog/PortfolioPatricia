@@ -91,12 +91,13 @@
     padding: 1rem;
    &__title {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #472183;
     font-family: $font-familyMono;
     margin: 20px;
     margin-top: 40px;
+    text-align: center;
    }
    &__group {
         padding: 5px;
