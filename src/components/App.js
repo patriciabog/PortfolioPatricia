@@ -1,5 +1,5 @@
-import React from "react";
-import { Routes, Route} from "react-router-dom";
+import React, { useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Header from './Header';
 import BtnLanguage from './BtnLanguage';
 import About from './About';
@@ -9,6 +9,15 @@ import Projects from './Projects';
 import '../styles/App.scss';
 
 function App() {
+
+  const location = useLocation();
+
+  // This function will be executed every time you change route
+  useEffect(() => {
+    // Resets the scroll position to the top of the page
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <div className="app-container">
       <Header/>
