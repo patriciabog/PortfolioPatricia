@@ -6,7 +6,7 @@ const Landing = () => {
     return (
         <div className="landing">
             <h1 className="landing__title">Patricia Montes de oca</h1>
-            <h3 className="landing__subtitle">Frontend Developer</h3>
+            <h3 className="landing__subtitle">Web Developer</h3>
             <p className="landing__p">{t("landing.description")}</p>
             <div className="landing__bubbles"> 
                 <div className="bubble"></div>
