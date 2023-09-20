@@ -13,10 +13,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleMenuItemClick = () => {
-    setIsOpen(false);
-  };
-
   useEffect(() => {
     let timeoutId;
 
@@ -30,6 +26,7 @@ const Navbar = () => {
       clearTimeout(timeoutId);
     };
   }, [isOpen]);
+  
 
   const menuItems = [
     { to: '/about', label: t('navbar.about') },
@@ -38,22 +35,28 @@ const Navbar = () => {
     { to: '/', label: t('navbar.home') },
   ];
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className='nav-box'>
-      <nav onClick={handleMenuToggle}>
-        {isOpen ? <FaTimes className="nav-icon" /> : <FaBars className="nav-icon" />}
+      <nav >
+        {isOpen ? (<FaTimes className="nav-icon" onClick={handleMenuToggle} />) : (<FaBars className="nav-icon" onClick={handleMenuToggle} />)}
       </nav>
-      <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} right={true}>
-        <ul className="nav__list">
-          {menuItems.map((item, index) => (
-            <li key={index} className="nav__list__menu">
-              <Link to={item.to} className='nav__link' onClick={handleMenuItemClick}>
-                {item.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Menu>
+      {isOpen && (
+        <Menu className='nav' isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)} right={true}>
+          <ul className="nav__list">
+            {menuItems.map((item, index) => (
+              <li key={index} className="nav__list__menu">
+                <Link to={item.to} className='nav__link' onClick={closeMenu}>
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Menu>
+      )}
     </div>
   );
 }
