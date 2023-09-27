@@ -4,6 +4,12 @@ import { FaGithub, FaImages } from 'react-icons/fa';
 import { projectsData } from './data/projectsData';
 
 function Projects() {
+     /**
+   * Translates a description using the provided translation function.
+   *
+   * @param {string} descriptionKey - The key identifying the description to translate.
+   * @returns {string} The translated description.
+   */
      const { t } = useTranslation();
      const translateDescription = (descriptionKey) => {
           return t(descriptionKey);

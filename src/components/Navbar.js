@@ -13,6 +13,11 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  /**
+  * Sets up a timeout to automatically close an element after a specified delay.
+  *
+  * @param {boolean} isOpen - A boolean indicating whether the element is open.
+  */
   useEffect(() => {
     let timeoutId;
 

@@ -14,14 +14,17 @@ function Contact() {
   const handleChange = (ev) => {
     setFormData({ ...formData, [ev.target.name]: ev.target.value });
   };
+  /**
+ * Handles the form submission event.
+ *
+ * @param {Event} ev - The form submission event.
+ */
   const handleSubmit = (ev) => {
     ev.preventDefault();
     // Perform any further actions like sending the form data to a server
     emailjs.sendForm('service_s7rab4m', 'template_uupyxgu', ev.target, 'YNRASqeRDMcxE8Dlt')
       .then((result) => {
-        console.log(result.text);
       }, (error) => {
-        console.log(error.text);
       });
     // Reset the form fields
     setFormData({ name: '', email: '', message: '' });
