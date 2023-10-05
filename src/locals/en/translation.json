@@ -4,13 +4,13 @@
     "header.projects": "Projects",
     "header.contact": "Contact",
     "landing": {
-        "description": "Passionate Front End Web Developer eager to expand skills and embrace new challenges.",
+        "description": "Passionate Web Developer eager to expand skills and embrace new challenges.",
         "buttonText":"About Me"
     },
     "about": {
         "title": "About me",
         "name": "I'm",
-        "parraf": "With over 3 years of experience in Customer Service and Success across Ireland, Spain, and The Netherlands. My journey has taken me through diverse roles and countries, shaping me into a well-rounded professional with a passion for technology.  My time in these roles has equipped me with a strong foundation in customer-centric problem-solving and effective communication. I've had the privilege of working with people from different backgrounds and cultures, which has broadened my perspective and sharpened my interpersonal skills. This experience played a pivotal role in my decision to enroll in an intensive web development course, where I've honed my skills in software development. I realized that technology is a powerful tool to address customer needs and provide innovative solutions. My transition to web development allowed me to bridge my love for technology with my commitment to customer satisfaction. ",
+        "parraf": "With over 3 years of experience in Customer Service and Success across Ireland, Spain, and The Netherlands, I have gained diverse expertise that shaped me into a well-rounded professional with a passion for technology. This journey provided a strong foundation in customer-centric problem-solving and effective communication. Working with people from varied backgrounds and cultures broadened my perspective and sharpened my interpersonal skills. This experience was pivotal in my decision to enroll in an intensive web development course, where I honed my skills in software development. Recognizing technology as a powerful tool to address customer needs and provide innovative solutions, my transition to web development allowed me to bridge my love for technology with a commitment to customer satisfaction. ",
         "parraf2": " Today, I am highly motivated to continue my journey in the technology industry, combining my diverse background, customer-centric approach, and newfound web development expertise.",
         "skills": "Skills"
     },
